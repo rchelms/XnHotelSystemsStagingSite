@@ -117,28 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RoomSelectorItemText1" xml:space="preserve">
-    <value>Oda 1</value>
+  <data name="btnHotelIstanbul.Text" xml:space="preserve">
+    <value />
   </data>
-  <data name="RoomSelectorItemText2" xml:space="preserve">
-    <value>Oda 2</value>
+  <data name="btnHotelParis.Text" xml:space="preserve">
+    <value />
   </data>
-  <data name="RoomSelectorItemText3" xml:space="preserve">
-    <value>Oda 3</value>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value />
   </data>
-  <data name="RoomSelectorItemText4" xml:space="preserve">
-    <value>Oda 4</value>
+  <data name="lblStayCriteriaEditInfo.Text" xml:space="preserve">
+    <value />
   </data>
-  <data name="RoomSelectorItemText5" xml:space="preserve">
-    <value>Oda 5</value>
-  </data>
-  <data name="RoomSelectorItemText6" xml:space="preserve">
-    <value>Oda 6</value>
-  </data>
-  <data name="RoomSelectorItemText7" xml:space="preserve">
-    <value>Oda 7</value>
-  </data>
-  <data name="RoomSelectorItemText8" xml:space="preserve">
-    <value>Oda 8</value>
+  <data name="lblStayCriteriaInfo.Text" xml:space="preserve">
+    <value />
   </data>
 </root>

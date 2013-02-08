@@ -124,7 +124,7 @@
     <value>What is your check-out date?</value>
   </data>
   <data name="StartOverConfirmation" xml:space="preserve">
-    <value>Hotel booking is in progess. Are you sure you want to restart the session?  </value>
+    <value>Hotel booking is in progress. Are you sure you want to restart the session?  </value>
   </data>
   <data name="StepBackwardWarningMessage" xml:space="preserve">
     <value>Editing this step means you will lose your choices in subsequent steps. Are you sure you want to continue?</value>

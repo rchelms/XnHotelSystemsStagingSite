@@ -249,4 +249,13 @@
   <data name="MainMenu7PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/de/19/</value>
   </data>
+  <data name="MainMenu8" xml:space="preserve">
+    <value>Seminare</value>
+  </data>
+  <data name="MainMenu8PopUpUrl" xml:space="preserve">
+    <value>http://www.mamashelter.com/de/seminare/#switch_locale</value>
+  </data>
+  <data name="MainManu8PopUpUrl" xml:space="preserve">
+    <value />
+  </data>
 </root>
