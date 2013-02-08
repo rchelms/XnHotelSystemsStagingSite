@@ -1,0 +1,21 @@
+/* Xn GlobalRES WBS UI CSS Document - Payment Gateway Processing Pages */
+
+/* General */
+
+body {background-color: #eee; font-family: Arial, sans-serif; font-size: 1.0em; color: #000; margin: 0px; padding: 0px;}
+
+h1, h2, h3, h4, h5, h6 {font-weight: normal; color: #2f7087;}
+h1 {font-size: 3.0em; line-height: 1.0; margin-bottom: 0.5em;}
+h2 {font-size: 2.0em; line-height: 1.0; margin-bottom: 0.75em;}
+h3 {font-size: 0.85em; line-height: 1.0; margin-bottom: 0.5em;}
+h4 {font-size: 0.75em; line-height: 1.0; margin-bottom: 0.5em;}
+h5 {font-size: 0.65em; line-height: 1.0; margin-bottom: 0.5em;}
+p {font-size: 0.75em; font-weight: normal; color: #444; line-height: 1.2;}
+
+/* Payment Submit Page */
+
+.submit_payment_container {height: 100px; width: 500px; margin: 100px auto; padding: 0px; background-color: transparent;}
+
+.submit_payment_content {margin: 0px; padding: 20px; border: solid 1px #bbb; background-color: #fff; text-align: center;}
+.submit_payment_content span {font-size: 1.00em; font-weight: normal; color: #444;}
+.submit_payment_form {margin: 0px; padding: 0px;}

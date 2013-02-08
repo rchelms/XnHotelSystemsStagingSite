@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AreaList" targetNamespace="http://www.xnglobalres.com/AreaList" elementFormDefault="qualified" xmlns="http://www.xnglobalres.com/AreaList" xmlns:tns="http://www.xnglobalres.com/AreaList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AreaList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Area" type="tns:WBS_Area" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="WBS_Area">
+    <xs:attribute name="AreaID" type="xs:string" use="required" />
+    <xs:attribute name="AreaName" type="xs:string" use="required" />
+    <xs:attribute name="CountryCode" type="xs:string" use="required" />
+  </xs:complexType>
+</xs:schema>

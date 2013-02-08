@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnConfirmBooking.Text" xml:space="preserve">
+    <value>Confermare</value>
+  </data>
+  <data name="ddlCountrySelect.Text" xml:space="preserve">
+    <value>Selezionate un Paese</value>
+  </data>
+  <data name="ddlMonthApr.Text" xml:space="preserve">
+    <value>Apr</value>
+  </data>
+  <data name="ddlMonthAug.Text" xml:space="preserve">
+    <value>Ago</value>
+  </data>
+  <data name="ddlMonthDec.Text" xml:space="preserve">
+    <value>Dic</value>
+  </data>
+  <data name="ddlMonthFeb.Text" xml:space="preserve">
+    <value>Feb</value>
+  </data>
+  <data name="ddlMonthJan.Text" xml:space="preserve">
+    <value>Gen</value>
+  </data>
+  <data name="ddlMonthJul.Text" xml:space="preserve">
+    <value>Lug</value>
+  </data>
+  <data name="ddlMonthJun.Text" xml:space="preserve">
+    <value>Gui</value>
+  </data>
+  <data name="ddlMonthMar.Text" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="ddlMonthMay.Text" xml:space="preserve">
+    <value>Mag</value>
+  </data>
+  <data name="ddlMonthNov.Text" xml:space="preserve">
+    <value>Nov</value>
+  </data>
+  <data name="ddlMonthOct.Text" xml:space="preserve">
+    <value>Ott</value>
+  </data>
+  <data name="ddlMonthSep.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="ddlNamePrefixDr.Text" xml:space="preserve">
+    <value>Dr</value>
+  </data>
+  <data name="ddlNamePrefixDr.Value" xml:space="preserve">
+    <value>Dr</value>
+  </data>
+  <data name="ddlNamePrefixMiss.Text" xml:space="preserve">
+    <value>Signorina</value>
+  </data>
+  <data name="ddlNamePrefixMiss.Value" xml:space="preserve">
+    <value>Signorina</value>
+  </data>
+  <data name="ddlNamePrefixMr.Text" xml:space="preserve">
+    <value>Signor</value>
+  </data>
+  <data name="ddlNamePrefixMr.Value" xml:space="preserve">
+    <value>Signor</value>
+  </data>
+  <data name="ddlNamePrefixMrs.Text" xml:space="preserve">
+    <value>Signora</value>
+  </data>
+  <data name="ddlNamePrefixMrs.Value" xml:space="preserve">
+    <value>Signora</value>
+  </data>
+  <data name="ddlNamePrefixMs.Text" xml:space="preserve">
+    <value>Sig.ra</value>
+  </data>
+  <data name="ddlNamePrefixMs.Value" xml:space="preserve">
+    <value>Sig.ra</value>
+  </data>
+  <data name="ddlNamePrefixProf.Text" xml:space="preserve">
+    <value>Prof.</value>
+  </data>
+  <data name="ddlNamePrefixProf.Value" xml:space="preserve">
+    <value>Prof.</value>
+  </data>
+  <data name="ddlTravelPurposeBusiness.Text" xml:space="preserve">
+    <value>Affari</value>
+  </data>
+  <data name="ddlTravelPurposeLeisure.Text" xml:space="preserve">
+    <value>Tempo Libero</value>
+  </data>
+  <data name="ddlTravelPurposeNotIdentified.Text" xml:space="preserve">
+    <value>Scegliete un oggetto</value>
+  </data>
+  <data name="hlTermsAndConditions.Text" xml:space="preserve">
+    <value>Termini e Condizioni</value>
+  </data>
+  <data name="lblAddress1.Text" xml:space="preserve">
+    <value>Indirizzo:</value>
+  </data>
+  <data name="lblAddress2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdultRollaway.Text" xml:space="preserve">
+    <value>Letto pieghevole per adulti</value>
+  </data>
+  <data name="lblCardDetails.Text" xml:space="preserve">
+    <value>Dati relativi alla carta di credito</value>
+  </data>
+  <data name="lblCardExpiryDate.Text" xml:space="preserve">
+    <value>Data di scadenza</value>
+  </data>
+  <data name="lblCardholderName.Text" xml:space="preserve">
+    <value>Nome del titolare</value>
+  </data>
+  <data name="lblCardSecurityCode.Text" xml:space="preserve">
+    <value>Codice di sicurezza</value>
+  </data>
+  <data name="lblCardType.Text" xml:space="preserve">
+    <value>Tipo di carta</value>
+  </data>
+  <data name="lblChildRollaway.Text" xml:space="preserve">
+    <value>Letto pieghevole per bambini </value>
+  </data>
+  <data name="lblCity.Text" xml:space="preserve">
+    <value>Città</value>
+  </data>
+  <data name="lblCompanyName.Text" xml:space="preserve">
+    <value>Nominativo della società</value>
+  </data>
+  <data name="lblConfirmBooking.Text" xml:space="preserve">
+    <value>Confermate la vostra prenotazione</value>
+  </data>
+  <data name="lblConfirmEmail.Text" xml:space="preserve">
+    <value>Confermate l'E-mail</value>
+  </data>
+  <data name="lblCountry.Text" xml:space="preserve">
+    <value>Paese:</value>
+  </data>
+  <data name="lblFirstName.Text" xml:space="preserve">
+    <value>Cognome:</value>
+  </data>
+  <data name="lblLastName.Text" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="lblNamePrefix.Text" xml:space="preserve">
+    <value>Titolo *</value>
+  </data>
+  <data name="lblPostalCode.Text" xml:space="preserve">
+    <value>Codice Postale</value>
+  </data>
+  <data name="lblRequiredEntryText.Text" xml:space="preserve">
+    <value>Tutti i campi contrassegnati da * devono essere compilati</value>
+  </data>
+  <data name="lblSubscribeToNewsletter.Text" xml:space="preserve">
+    <value>Abbonarsi alla newsletter</value>
+  </data>
+  <data name="lblTelephone.Text" xml:space="preserve">
+    <value>Telefono/Mobile</value>
+  </data>
+  <data name="lblTermsAgreement.Text" xml:space="preserve">
+    <value>Accetto la prenotazione</value>
+  </data>
+  <data name="lblTravelPurpose.Text" xml:space="preserve">
+    <value>Oggetto del soggiorno</value>
+  </data>
+  <data name="lblArrivalTime.Text" xml:space="preserve">
+    <value>Ora d'arrivo</value>
+  </data>
+  <data name="lblCardIssueNumber.Text" xml:space="preserve">
+    <value>Numero di serie</value>
+  </data>
+  <data name="lblCardStartDate.Text" xml:space="preserve">
+    <value>Data d'inizio</value>
+  </data>
+  <data name="lblConfirmBookingInstructions1.Text" xml:space="preserve">
+    <value>Vi preghiamo di verificare i vostri dati e di cliccare su "Confermare la prenotazione" (in appresso) per ultimare la prenotazione.</value>
+  </data>
+  <data name="lblConfirmBookingInstructions2.Text" xml:space="preserve">
+    <value>Il procedimento di conferma può tardare fino a 30 secondi. Vi preghiamo di cliccare solo una volta su "Confermare la prenotazione"</value>
+  </data>
+  <data name="lblCrib.Text" xml:space="preserve">
+    <value>Culla</value>
+  </data>
+  <data name="lblExtraBedding.Text" xml:space="preserve">
+    <value>Richiesta di un letto supplementare (a seconda delle disponibilità)</value>
+  </data>
+  <data name="lblGuestDetailsEntry.Text" xml:space="preserve">
+    <value>Inserite i vostri dati personali</value>
+  </data>
+  <data name="lblGuestDetailsEntryInfo.Text" xml:space="preserve">
+    <value>Vi preghiamo di inserire i vostri dati relativi alla prenotazione nel campo in appresso. I vostri dati bancari e personali sono protetti dal criptaggio SSL.</value>
+  </data>
+  <data name="lblGuestInformation.Text" xml:space="preserve">
+    <value>Informazioni clienti</value>
+  </data>
+  <data name="lblGuestInstructions.Text" xml:space="preserve">
+    <value>Osservazioni e indicazioni clienti</value>
+  </data>
+  <data name="lblSpecialInstructions.Text" xml:space="preserve">
+    <value>Indicazioni speciali</value>
+  </data>
+  <data name="lblStateRegion.Text" xml:space="preserve">
+    <value>Regione</value>
+  </data>
+  <data name="rbAM.Text" xml:space="preserve">
+    <value>antimeridiane</value>
+  </data>
+  <data name="rbPM.Text" xml:space="preserve">
+    <value>postmeridiane</value>
+  </data>
+  <data name="lblEmail.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="lblFltNumber.Text" xml:space="preserve">
+    <value>Numero di volo</value>
+  </data>
+  <data name="btnPaymentGatewaySelect.Text" xml:space="preserve">
+    <value>Confermate la modalità di pagamento</value>
+  </data>
+  <data name="lblPaymentGatewaySelectCardType.Text" xml:space="preserve">
+    <value>Tipo di carta</value>
+  </data>
+  <data name="lblCardNumber.Text" xml:space="preserve">
+    <value>Numero di carta</value>
+  </data>
+  <data name="lblRequiredEntry.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="hlTermsAndConditions.NavigateUrl" xml:space="preserve">
+    <value>javascript:void window.open('http://www.mamashelter.com/it/legal', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');</value>
+  </data>
+  <data name="lblPaymentGatewayNotice.Text" xml:space="preserve">
+    <value>N.B.: Il prossimo schermo che potete visualizzare può rappresentare una verifica da parte dell'ente emittente della vostra carta di credito.</value>
+  </data>
+  <data name="lblPaymentPolicyText.Text" xml:space="preserve">
+    <value>Condizioni generali in materia di pagamento…</value>
+  </data>
+  <data name="lblTravelAgencyIATA.Text" xml:space="preserve">
+    <value>Numero IATA, agenzie di viaggi solamente)</value>
+  </data>
+  <data name="lblPaymentGatewaySelect.Text" xml:space="preserve">
+    <value>Selezione di Tipo di Carta di Pagamento</value>
+  </data>
+  <data name="ddlSelectAirlineProgram.Text" xml:space="preserve">
+    <value>- Scegliere il Programma di Compagnia aerea--</value>
+  </data>
+  <data name="ddlSelectHotelProgram.Text" xml:space="preserve">
+    <value>- Scegliere il Programma di hotel--</value>
+  </data>
+  <data name="lblAirlineProgramName.Text" xml:space="preserve">
+    <value>Programma di Compagnia aerea</value>
+  </data>
+  <data name="lblAirlineProgramNumber.Text" xml:space="preserve">
+    <value>Numero di Programma di Compagnia aerea</value>
+  </data>
+  <data name="lblHotelProgramName.Text" xml:space="preserve">
+    <value>Programma di hotel</value>
+  </data>
+  <data name="lblHotelProgramNumber.Text" xml:space="preserve">
+    <value>Numero di Programma di hotel</value>
+  </data>
+  <data name="lblProfileGuarantee.Text" xml:space="preserve">
+    <value>Garantita Corporate / Agenzie</value>
+  </data>
+  <data name="btnConfirmBooking1.Text" xml:space="preserve">
+    <value>la prenotazione</value>
+  </data>
+  <data name="lblHelpInfoText.Text" xml:space="preserve">
+    <value>What is it?</value>
+  </data>
+  <data name="lblSpecialInstructions1.Text" xml:space="preserve">
+    <value>(N.B. unicamente su richiesta)</value>
+  </data>
+</root>

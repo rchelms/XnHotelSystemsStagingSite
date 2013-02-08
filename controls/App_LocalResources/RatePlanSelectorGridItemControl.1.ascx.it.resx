@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="divRateNotAvailable.ToolTip" xml:space="preserve">
+    <value>Questa tariffa non è disponibile per le date prescelte</value>
+  </data>
+  <data name="divSelectRate.ToolTip" xml:space="preserve">
+    <value>Cliccate per scegliere questa tariffa</value>
+  </data>
+  <data name="iblClosePopup.ToolTip" xml:space="preserve">
+    <value>Cliccate per chiudere</value>
+  </data>
+  <data name="imgRatePlanRestricted.ToolTip" xml:space="preserve">
+    <value>Visualizzare le condizioni relative alle tariffe</value>
+  </data>
+  <data name="lblAcceptedPaymentCardsTitle.Text" xml:space="preserve">
+    <value>Carte di credito accettate (garanzia / acconto)</value>
+  </data>
+  <data name="lblCancelPolicyTitle.Text" xml:space="preserve">
+    <value>Politica in materia di annullamento</value>
+  </data>
+  <data name="lblDepositPolicyTitle.Text" xml:space="preserve">
+    <value>Politica in materia di acconto</value>
+  </data>
+  <data name="lblGuaranteePolicyTitle.Text" xml:space="preserve">
+    <value>Politica in materia di garanzia</value>
+  </data>
+  <data name="lblViewDescriptionTitle.Text" xml:space="preserve">
+    <value>Descrizione delle tariffe</value>
+  </data>
+  <data name="lblViewPoliciesTitle.Text" xml:space="preserve">
+    <value>Politica relativa alle tariffe</value>
+  </data>
+  <data name="lblViewRatesDate.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="lblViewRatesInclusions.Text" xml:space="preserve">
+    <value>Elementi compresi</value>
+  </data>
+  <data name="lblViewRatesRate.Text" xml:space="preserve">
+    <value>Tariffa</value>
+  </data>
+  <data name="lblViewRatesTitle.Text" xml:space="preserve">
+    <value>Tariffe giornaliere</value>
+  </data>
+  <data name="lbViewDescription.Text" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="lbViewDescription.ToolTip" xml:space="preserve">
+    <value>Visualizzare la descrizione delle tariffe</value>
+  </data>
+  <data name="lbViewPolicies.Text" xml:space="preserve">
+    <value>Politiche</value>
+  </data>
+  <data name="lbViewPolicies.ToolTip" xml:space="preserve">
+    <value>Visualizzare le politiche in materia di garanzia, annullamento e acconto</value>
+  </data>
+  <data name="lbViewRates.Text" xml:space="preserve">
+    <value>Informazioni sulle tariffe</value>
+  </data>
+  <data name="lbViewRates.ToolTip" xml:space="preserve">
+    <value>Visualizzare tariffe per ogni notte di soggiorno</value>
+  </data>
+  <data name="RateNightsPrefix" xml:space="preserve">
+    <value>per</value>
+  </data>
+  <data name="RateNightsSuffix" xml:space="preserve">
+    <value>notti</value>
+  </data>
+  <data name="RatePlanRestrictionNotice" xml:space="preserve">
+    <value>Esistono restrizioni per le date richieste. Per ulteriori informazioni vi preghiamo di posizionare il mouse sulla tariffa giornaliera </value>
+  </data>
+  <data name="lblRoomRateNotAvailableText.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="lblPaymentPolicyTitle.Text" xml:space="preserve">
+    <value>Politica in materia di pagamento</value>
+  </data>
+</root>

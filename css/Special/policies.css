@@ -1,0 +1,33 @@
+/* Xn GlobalRES WBS UI CSS Document - Policy Pages */
+
+/* General */
+
+body {background-color: #fff; font-family: Arial, sans-serif; font-size: 1.0em; color: #000; margin: 0px; padding: 0px;}
+
+h1, h2, h3, h4, h5, h6 {font-weight: normal; color: #2f7087;}
+h1 {font-size: 3.0em; line-height: 1.0; margin-bottom: 0.5em;}
+h2 {font-size: 2.0em; line-height: 1.0; margin-bottom: 0.75em;}
+h3 {font-size: 0.85em; line-height: 1.0; margin-bottom: 0.5em;}
+h4 {font-size: 0.75em; line-height: 1.0; margin-bottom: 0.5em;}
+h5 {font-size: 0.65em; line-height: 1.0; margin-bottom: 0.5em;}
+p {font-size: 0.75em; font-weight: normal; color: #404040; line-height: 1.2;}
+
+/* Terms and Conditions */
+
+.terms_popup {margin: 5px;}
+.terms_popup_header {float: left; clear: both; width: 700px; border-bottom: solid 1px #a6a29d;}
+.terms_popup_header h4 {font-size: 0.85em; font-weight: bold; margin-top: 15px;}
+.terms_popup_body {float: left; clear: both; width: 700px; margin-top: 5px;}
+.terms_popup_body h4 {font-size: 0.85em; font-weight: bold; margin-top: 15px;}
+.terms_popup_body p {font-size: 0.85em; line-height: 1.1; margin-top: 5px;}
+.terms_popup_body li {font-size: 0.85em; line-height: 1.1; margin-top: 5px;}
+
+/* Privacy Policy */
+
+.privacy_popup {margin: 5px;}
+.privacy_popup_header {float: left; clear: both; width: 700px; border-bottom: solid 1px #a6a29d;}
+.privacy_popup_header h4 {font-size: 0.85em; font-weight: bold; margin-top: 15px;}
+.privacy_popup_body {float: left; clear: both; width: 700px; margin-top: 5px;}
+.privacy_popup_body h4 {font-size: 0.85em; font-weight: bold; margin-top: 15px;}
+.privacy_popup_body p {font-size: 0.85em; line-height: 1.1; margin-top: 5px;}
+

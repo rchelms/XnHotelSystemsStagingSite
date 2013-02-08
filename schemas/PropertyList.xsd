@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PropertyList" targetNamespace="http://www.xnglobalres.com/PropertyList" elementFormDefault="qualified" xmlns="http://www.xnglobalres.com/PropertyList" xmlns:tns="http://www.xnglobalres.com/PropertyList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PropertyList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Property" type="tns:WBS_Property" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="WBS_Property">
+    <xs:sequence>
+      <xs:element name="Areas" type="tns:WBS_Areas" minOccurs="0" />
+    </xs:sequence>
+    <xs:attribute name="HotelCode" type="xs:string" use="required" />
+    <xs:attribute name="HotelName" type="xs:string" use="required" />
+    <xs:attribute name="BrandCode" type="xs:string" use="required" />
+    <xs:attribute name="BrandName" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="WBS_Areas">
+    <xs:sequence>
+      <xs:element name="Area" type="tns:WBS_Area" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WBS_Area">
+    <xs:attribute name="AreaID" type="xs:string" use="required" />
+  </xs:complexType>
+</xs:schema>

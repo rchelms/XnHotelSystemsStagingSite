@@ -1,0 +1,444 @@
+﻿@font-face {
+  font-family: "Mama Shelter";
+  font-weight: 100;
+  src: url(fonts/mamashelterthin.eot);
+  src: url(fonts/mamashelterthin.eot?#iefix) format("embedded-opentype"), url(fonts/mamashelterthin.woff) format("woff")
+}
+@font-face {
+  font-family: "Mama Shelter";
+  font-weight: 300;
+  src: url(fonts/mamashelterlight.eot);
+  src: url(fonts/mamashelterlight.eot?#iefix) format("embedded-opentype"), url(fonts/mamashelterlight.woff) format("woff")
+}
+.mama_light {
+  font-weight: 300
+}
+@font-face {
+  font-family: "Mama Shelter";
+  font-weight: 400;
+  src: url(fonts/mamashelterregular.eot);
+  src: url(fonts/mamashelterregular.eot?#iefix) format("embedded-opentype"), url(fonts/mamashelterregular.woff) format("woff")
+}
+@font-face {
+  font-family: "Mama Shelter";
+  font-weight: 500;
+  src: url(fonts/mamasheltercap.eot);
+  src: url(fonts/mamasheltercap.eot?#iefix) format("embedded-opentype"), url(fonts/mamasheltercap.woff) format("woff")
+}
+@font-face {
+  font-family: "Mama Shelter";
+  font-weight: 600;
+  src: url(fonts/mamashelterdemi.eot);
+  src: url(fonts/mamashelterdemi.eot?#iefix) format("embedded-opentype"), url(fonts/mamashelterdemi.woff) format("woff")
+}
+@font-face {
+  font-family: "Mama Shelter";
+  font-weight: 700;
+  src: url(fonts/mamashelterbold.eot);
+  src: url(fonts/mamashelterbold.eot?#iefix) format("embedded-opentype"), url(fonts/mamashelterbold.woff) format("woff")
+}
+@font-face {
+  font-family: "Mama Shelter";
+  font-weight: 900;
+  src: url(fonts/mamashelterblack.eot);
+  src: url(fonts/mamashelterblack.eot?#iefix) format("embedded-opentype"), url(fonts/mamashelterblack.woff) format("woff")
+}
+
+body { font-family: "Mama Shelter"; font-size: 12px;-webkit-font-smoothing: antialiased;-webkit-text-size-adjust: 100%; }
+
+
+/* Master Page */
+#page_header .MM_header_wrapper { background-color: #fff; width: 944px; height: 161px; margin: 20px; padding: 0px; border-bottom-color: #C6C6C6; border-bottom-width: 1px; border-bottom-style: solid; position: relative; }
+
+
+#page_header .MM_logo { background: url(images/sprites.png) left top no-repeat; width: 225px; height: 152px; margin: 0px; }
+#page_header .MM_navigation { width: 200px; margin: 0px; top: 0px; left: 225px; position: absolute; }
+
+#page_header .MM_booking { width: 221px; height: 140px; font-family: Mama Shelter; text-transform: uppercase; background-color: rgb(72,72,72); margin: 0px; top: 0px; right: 0px; position: absolute; color: #fff; }
+
+.mm_mama_say_link { background: none repeat scroll 0 0 #484848; color: #F1F1F1; display: block; font-size: 17px; font-weight: 200; height: 91px; padding-top: 21px; text-align: center; text-transform: uppercase; width: 221px; text-decoration: none; }
+
+#page_header .MM_booking_infoheader { font-size: 27px; font-weight: 200; margin-bottom: 3px; color: #F1F1F1; text-align: center; text-transform: uppercase; }
+#page_header .MM_booking_info { font-size: 17px; font-weight: 200; margin: 0px; padding: 0px; }
+
+#page_header .MM_navigation ul { list-style-type: none; padding: 0px; margin: 0px; margin-left: 10px; margin-top: 0px; line-height: 19px; }
+#page_header .MM_navigation ul li { font-family: Mama Shelter; font-weight: 300; text-transform: uppercase; line-height: 19px; color: #626262; }
+#page_header .MM_navigation ul li a { text-decoration: none; line-height: 19px; color: #626262; }
+#page_header .MM_navigation ul li.MM_selected > a { text-transform: uppercase; line-height: 19px; color: #626262; font-weight: 600; }
+#page_header .MM_navigation ul li:hover > a { text-decoration: none; font-weight: 600; color: #626262; }
+
+
+#page_footer { background-color: White; width: 944px; height: 32px; margin: 10px; padding: 0px; border: 0px; }
+
+/* Language Bar Control */
+.mm_language_bar { clear: both; float: left; background-color:#FFF;z-index:1; position: absolute; bottom:5px; left:-15px; padding:0;}
+.mm_language_bar_item { float: left; clear: both; margin-right: 10px; margin-bottom:4px; cursor:hand;}
+.mm_language_bar_item_selected { }
+.mm_language_bar_item_selected span{color:#626262; font-weight:600; font-size:11px; text-transform:uppercase; margin-left:2px;}
+.mm_language_bar_item_not_selected { width:79px;}
+.mm_language_bar_item_not_selected span {color:#626262; font-weight:300; font-size:11px; text-transform:uppercase; margin-left:2px;}
+.mm_language_bar_item:hover span{font-weight:600;cursor:pointer; }
+
+
+/* Content Section */
+.mm_content_section { font-family: "Mama Shelter"; font-size: 12px; font-weight: 600; color: #626262; text-transform: uppercase; width: 462px; }
+
+.mm_main_step { clear: both; padding: 0px; margin: 0px; width: inherit; }
+
+.mm_step { clear: both; padding: 0px; margin: 0px; position: relative; height: 32px; }
+
+.mm_background_edit { background-color: #F9E536; }
+
+.mm_background_info { background-color: #484848; }
+
+.mm_border_edit { border-top: 2px solid #F9EFA8; border-right: 1px solid #DAD066; border-bottom: 2px solid #DAD066; border-left: 1px solid #F9EFA8; }
+
+.mm_border_info { border-top: 2px solid #626262; border-right: 1px solid #333; border-bottom: 2px solid #333; border-left: 1px solid #626262; }
+
+.mm_text_edit { position: absolute; padding: 0px 10px; top: 30%; }
+.mm_text_normal { font-weight: 300; }
+.mm_text_bold { font-weight: 400; }
+.mm_text_strong { font-weight: 500; }
+#xngr_wbs_content .mm_text_x_strong { font-weight: 600; }
+.mm_text_xx_strong { font-weight: 900; }
+
+.mm_text_info { position: absolute; padding: 0px 10px; top: 30%; color: #fff; }
+
+.mm_text_button_hotel { text-transform: uppercase !important; font-weight: 400 !important; color: #626262; }
+
+.mm_text_button_hotel1 { text-transform: uppercase !important; font-weight: 400 !important; color: #626262; }
+
+.mm_text_button_edit { color: #484848; }
+
+.mm_wrapper_image_holder { padding: 0px; margin: 0px; width: 462px; height: 940px; border: 0px; background: transparent; }
+
+.mm_wrapper_image_holder img { max-width: 460px; }
+
+
+html.no-touch .mm_wrapper_button_hotel:hover { background-color: #EBEBEB; border-color: white rgb(215, 215, 215) rgb(215, 215, 215) white; }
+
+
+.mm_wrapper_button_edit { display: none; background-color: #EBEBEB; height: 18px; width:auto; padding:0px; border-radius: 4px; position: absolute; bottom: 6px; right: 6px; }
+.mm_wrapper_button_start_over {width: auto !important;}
+.mm_main_step:hover .mm_wrapper_button_edit { display: block; }
+
+
+
+.mm_button { background-color: transparent; border: 0px; cursor: pointer; cursor: hand; margin:1px 2px; width: auto; height: auto; text-align: center; font-family: Mama Shelter; text-transform: none; font-size: 12px; font-weight: 300; }
+.mm_button_main_step {height: 28px; width:100%;}
+
+.mm_button1 {width: 100%; background-color: transparent; border: 0px; cursor: pointer; cursor: hand; margin: 5px 0px -20px 0px; padding: 0px;height: auto; font-family: Mama Shelter; text-transform: none; font-size: 14px; font-weight: 300; vertical-align: middle; }
+.mm_button1_main_step { height: auto; width:100%; padding: 0px, margin:0px;}
+
+/* AvailCalSelectorControl */
+
+#xngr_wbs_content .mm_avail_cal { width: 100%; }
+
+.mm_avail_cal_price_information { width: 100%; margin-top: 10px; }
+
+#xngr_wbs_content .mm_avail_cal table { width: 100%; font-family: "Mama Shelter"; }
+
+#xngr_wbs_content .mm_avail_cal table td { width: 14%; height: 50px; padding: 0px; margin: 0px; }
+
+#xngr_wbs_content .mm_wrapper_month_header { height: 35px; position: relative; }
+
+#xngr_wbs_content .mm_wrapper_navigate { background: url("images/sprites.png") no-repeat scroll 0% 0% white; width: 30px; height: 100%; float: left; }
+#xngr_wbs_content .mm_wrapper_navigate_left { background-position: 0px -158px; }
+#xngr_wbs_content .mm_wrapper_navigate_left:hover { background-position: -60px -158px; }
+#xngr_wbs_content .mm_wrapper_navigate_right { background-position: -30px -158px; }
+#xngr_wbs_content .mm_wrapper_navigate_right:hover { background-position: -90px -158px; }
+
+#xngr_wbs_content .mm_button_navigate { background-color: transparent; border-style: none; cursor: pointer; width: 100%; height: 100%; }
+
+
+#xngr_wbs_content .mm_month_header_label { text-transform: uppercase; color: rgb(98,98,98); font-weight: 600; position: absolute; left: 80px; top: 25%; }
+
+#xngr_wbs_content .mm_day_of_week_header { font-weight: normal; font-size: 12px; text-transform: none; color:#969696}
+
+.mm_avail_cal_day { position: relative; background-color: #fff; }
+
+#xngr_wbs_content .mama_avail_cal_day_label_checkin { display: none; top: 35px; left: 10px; position: absolute; font-size: 10px; font-weight:400; }
+#xngr_wbs_content .mama_avail_cal_day_label_checkout { display: none; top: 35px; left: 5px; position: absolute; font-size: 10px; font-weight:400;}
+#xngr_wbs_content .mama_avail_cal_day_label_soldout{ display: none; top: 25px; left: 3px; position: absolute; font-size: 8px; font-weight:400;}
+
+#xngr_wbs_content .mm_available { border-right: 1px solid rgb(235, 235, 235); border-bottom: 1px solid rgb(235, 235, 235); height: 50px; cursor: pointer; position: relative; }
+.mm_available_next_month .mama_avail_cal_day_label{color:#C6C6C6 !important;}
+
+#xngr_wbs_content .mama_avail_cal_day_checkin { background: #F9E536; }
+#xngr_wbs_content .mama_avail_cal_day_checkin .mama_avail_cal_day_label_checkin { display: block; }
+
+#xngr_wbs_content .mama_avail_cal_day_selecting { background-color: rgb(249, 239, 168); }
+
+#xngr_wbs_content .mama_avail_cal_day_selecting-over { background-color: rgb(249, 239, 168) !important; }
+#xngr_wbs_content .mama_avail_cal_day_selecting-over .mama_avail_cal_day_label_checkin { display: block; }
+
+.mm_not_available { background-color: #EECDCD; border-right: 1px solid rgb(235, 235, 235); border-bottom: 1px solid rgb(235, 235, 235); height: 50px; cursor: pointer; position: relative; }
+.mm_not_available_hover {}
+.mm_not_available_hover .mama_avail_cal_day_label_soldout {display:block !important;}
+
+.mm_passed_day { background-color: #EBEBEB; border-right: 1px solid rgb(235, 235, 235); border-bottom: 1px solid rgb(235, 235, 235); height: 50px; cursor: pointer; position: relative; }
+
+#xngr_wbs_content .mama_avail_cal_day_checkout { background: url("images/check-out-tentative.png") no-repeat left top; }
+#xngr_wbs_content .mama_avail_cal_day_checkout .mama_avail_cal_day_label_checkout { display: block; }
+#xngr_wbs_content .mama_avail_cal_day_checkout .mama_avail_cal_day_label_checkin { display: none; }
+
+#xngr_wbs_content .mm_not_avail_cal_day_checkout { background: #EECDCD url("images/check-out-tentative.png") no-repeat left top; }
+#xngr_wbs_content .mm_not_avail_cal_day_checkout .mama_avail_cal_day_label_checkout { display: block; }
+#xngr_wbs_content .mm_not_avail_cal_day_checkout .mama_avail_cal_day_label_checkin { display: none; }
+
+#xngr_wbs_content .mama_avail_cal_day_label { font-family: "Mama Shelter"; font-weight: 400; font-size: 10px; color: rgb(98,98,98); top: 5px; left: 3px; position: absolute; }
+#xngr_wbs_content .mama_avail_cal_day_rate { font-family: "Mama Shelter"; font-weight: 400; font-size: 13px; color: rgb(150,150,150); text-transform: uppercase; text-decoration: none; position: absolute; top: 16px; left: 27%; }
+#xngr_wbs_content .mm_available .mama_avail_cal_day_rate .euro { font-size: 1.3em; }
+
+#xngr_wbs_content .mm_avail_cal_legend_text { float: left; clear: both; font-weight: 300; text-transform: none; margin: 0px; padding: 0px; font-size: 12px; }
+
+
+
+#xngr_wbs_content .mm_avail_cal_submit_button { background: transparent; border: 0px; width: 100%; height: 100%; }
+
+/* RoomQuantitySelectorControl */
+
+#xngr_wbs_content .mm_input_textbox { width: 130px; float: right; border: 0px; padding: 4px 0px; margin: 4px 4px; color: #484848; background-color: #EBEBEB; font-family: Mama Shelter; font-weight: 300; font-size: 12px; border-radius: 4px; }
+
+/* RoomRateSelectorControl */
+
+.mm_roomrate_edit { clear: both; margin: 0px; }
+.mm_roomrate_edit .mm_detail_text { color: #484848; }
+.mm_roomrate_edit .mm_rate_policy_title { color: #484848; }
+.mm_roomrate_edit:hover { background-color: #F1F1F1; }
+
+.mm_wrapper_button_selectOrAdd {background-color: #484848; border-radius: 4px; width:auto;}
+.mm_roomrate_wrapper_button_select { display: none; position: absolute; right: 80px; bottom: 9px; }
+.mm_roomrate_edit:hover .mm_roomrate_wrapper_button_select { display: block; }
+.mm_roomrate_info { clear: both; margin: 0px; }
+.mm_roomrate_info .mm_detail_text { color: #EBEBEB; }
+.mm_roomrate_info .mm_rate_policy_title { color: #EBEBEB; }
+
+.mm_roomrate_wrapper_button_editOrRemoveStyle { background-color: #EBEBEB; height: 18px; width:auto; padding:0px; border-radius: 4px;}
+.mm_roomrate_wrapper_button_edit { display: none; position: absolute; right: 100px; bottom: 10px;}
+.mm_roomrate_info:hover .mm_roomrate_wrapper_button_edit { display: block;}
+
+.mm_text_button_select { color: #EBEBEB; }
+
+.mm_wrapper_button_hotel { height: 32px; margin: 0px; padding: 0px; float: left; }
+
+.mm_roomrate_content { position: relative; top: 0px; left: 0px; padding: 10px 10px; margin: 0px; font-weight: 300; }
+
+#xngr_wbs_content .mm_room_detail_button { background: transparent; border: 0px; padding: 0px; margin: 0px; }
+#xngr_wbs_content .mm_room_detail_button:hover { cursor: pointer; text-decoration: underline; }
+
+.mm_room_detail_button_selected { color: #EBEBEB; }
+
+.mm_room_type_text { font-weight: 400; }
+
+.mm_rate_plan_currency_symbol { font-size: 1.3EM; }
+
+.mm_roomrate_price { position: absolute; bottom: 0px; right: 10px; font-size: 27px; font-weight: 100; color: #FFF; }
+.mm_roomrate_price_edit { color: #626262 !important; }
+
+#xngr_wbs_content .mm_hidden { display: none !important; }
+.mm_underline { text-decoration: underline !important; }
+.mm_sperator { padding: 0px 3px; }
+
+#xngr_wbs_content .mm_room_type_description { clear: both; padding: 5px 10px 5px 0px; margin: 2px 0 0 2px; width: 305px; }
+
+#xngr_wbs_content .mm_rate_policy_title { clear: both; margin: 0px; border: 0px; text-transform: none; font-weight: 600; }
+
+#xngr_wbs_content .mm_detail_text { clear: both; text-transform: none; font-weight: 300; text-align: left; padding: 0px; margin: 0px; }
+
+.mm_wrapper_button_finish_select_addon { background-color: #626262; color: #EBEBEB; border-radius: 4px; width: auto; position: absolute; right: 10px; bottom: 8px; }
+
+/* 
+AddOnPackageItemSelectorControl
+*/
+
+.mm_addon_edit { clear: both; margin: 0px; }
+.mm_addon_edit .mm_detail_text { color: #484848; }
+.mm_addon_edit .mm_rate_policy_title { color: #484848; }
+.mm_addon_wrapper_button_add { display: none; position: absolute; right: 80px; bottom: 9px;}
+.mm_addon_edit:hover .mm_addon_wrapper_button_add { display: block; }
+
+.mm_addon_info { clear: both; margin: 0px; }
+.mm_addon_info .mm_detail_text { color: #EBEBEB; }
+.mm_addon_info .mm_rate_policy_title { color: #EBEBEB; }
+.mm_addon_wrapper_button_remove { display: none; position: absolute; right: 100px; bottom: 10px;}
+.mm_addon_info:hover .mm_addon_wrapper_button_remove { display: block; }
+
+/* 
+ Payment
+*/
+.mm_wrapper_final { padding: 10px; margin: 0px; clear: none; float: left; width: 460px; height: 170px; padding: 0px; position: relative; top: 0px; }
+
+.mm_wrapper_final:hover { background-color: #EBEBEB; border-color: white rgb(215, 215, 215) rgb(215, 215, 215) white; }
+
+.mm_wrapper_final:hover span { color: #626262; background-color: transparent;}
+
+.mm_position_panel_title { position: absolute; left: 10px; top: 10px; }
+
+.mm_position_panel_button { position: absolute; left: 120px; top: 20%; }
+
+.mm_position_panel_info { position: relative; left: 10px; top: 80%; }
+
+.mm_wrapper_payment_button { width: 100px; height: 94px; left: 60px; top: 0px; position: relative; font-weight: 300;}
+
+.mm_wrapper_hold_button { background-position: -227px -152px; color: #fff; }
+
+.mm_wrapper_paynow_button { background-position: -119px -152px; color: #000; }
+
+.mm_text_title { font-weight: 600; text-transform: uppercase; }
+
+.mm_text_title_hold_booking { }
+
+.mm_text_title_paynow { color: #fff; }
+
+.mm_text_postion_button { font-size: 16px; left: 8px; position: absolute; text-align: center; padding-top:31px; background: url("images/sprites1.png") no-repeat; width: 100px; height: 94px;  }
+.mm_text_postion_button1 { font-size: 16px; left: 8px; position: absolute; text-align: center; padding-top:34px; background: transparent; width: 100px; height: 94px;  }
+
+.mm_text_payment_info { position: absolute; top: 0px; left: -10px; color: #626262; font-weight: 300; }
+
+.mm_text_payment_info_extra_info { position: absolute; top: 15px; left: 0px; font-weight: 600; }
+
+.mm_text_price_hold { font-size: 18px; font-weight: 300; position: absolute; right: 20px; bottom: -15px; }
+
+.mm_text_price_pay_now { font-size: 27px; font-weight: 100; color: #fff; position:absolute; right: 20px; bottom: -30px;}
+
+.mm_proceed_payment_button { position: absolute; top: 0px; left: 0px; background: transparent; border: 0px; padding: 0px; margin: 0px; width: 460px; height: 170px; }
+
+.mm_proceed_payment_button:hover { cursor: pointer; color: #626262; }
+
+.mm_colLeft { float: left; padding: 0px; margin: 0px; }
+
+.mm_colRight { width: 455px; float: left; padding: 0px; margin: 0px; margin-left: 20px; }
+/*
+Guest Info
+*/
+
+#xngr_wbs_content .mm_guest_details_info {float: left; clear: both; color: #626262; font-weight: 400; font-size: 12px; margin-bottom: 0px; width: 462px; }
+#xngr_wbs_content .mm_guest_details_info_header {border-color: #626262 #333333 #333333 #626262; border-style: solid; border-width: 2px 1px; background-color: #484848; height:22px; padding: 10px 0px 0px 10px; margin: 0px;}
+#xngr_wbs_content .mm_guest_details_info_header span {color: #fff; font-size: 13px; font-weight: 600; text-transform: uppercase; }
+#xngr_wbs_content .mm_guest_details_info_body { background: #EBEBEB; float: left; clear: both; padding: 10px 0px 10px 10px; margin: 0px; width: 452px; }
+#xngr_wbs_content .mm_guest_details_info_body p { font-size: 12px; margin: 0px; }
+#xngr_wbs_content .mm_guest_details_info_body textarea { height: 120px; width: 350px; }
+
+#xngr_wbs_content .mm_guest_details_info1 {float: left; clear: both; color: #626262; text-decoration: underline; font-weight: 400; font-size: 12px; margin-bottom: 0px; width: 462px; }
+#xngr_wbs_content .mm_guest_details_info1_header {border-color: #626262 #333333 #333333 #626262; border-style: solid; border-width: 2px 1px; background-color: #484848; height:22px; padding: 10px 0px 0px 10px; margin: 0px;}
+#xngr_wbs_content .mm_guest_details_info1_header span {color: #fff; font-size: 13px; font-weight: 600; text-transform: uppercase; }
+#xngr_wbs_content .mm_guest_details_info1_body { background: #EBEBEB; float: left; clear: both; padding: 10px 0px 10px 10px; margin: 0px; width: 452px; }
+#xngr_wbs_content .mm_guest_details_info1_body p { font-size: 12px; margin: 0px; }
+#xngr_wbs_content .mm_guest_details_info1_body textarea { height: 120px; width: 350px; }
+
+
+#xngr_wbs_content .mm_field_set_row { float: left; clear: both; margin: 0px; margin-top: 1px; padding: 0px; width: 450px; }
+#xngr_wbs_content .mm_field_set_left { float: left; clear: right; margin: 0px 0px 5px 5px; padding: 0px; width: 150px; }
+#xngr_wbs_content .mm_field_set_right { float: left; clear: right; margin: 0px; padding: 0px; width: 240px; }
+
+#xngr_wbs_content .mm_field_set_row1 { float: left;  margin: 1px 10px 0px 0px; padding: 0px; width: 210px; }
+#xngr_wbs_content .mm_field_set_left1 { float: left; margin: 0px 0px 5px 5px; padding: 0px; width: 150px; }
+#xngr_wbs_content .mm_field_set_right1 { float: left; margin: 0px; padding: 0px; width: 50px; }
+
+#xngr_wbs_content .mm_field_set_row2 { float: right;  margin: 1px 0px 0px 0px; padding: 0px 0px 0px 0px; width: 200px; }
+#xngr_wbs_content .mm_field_set_left2 { float: left; margin: 0px 10px 5px 10px; padding: 0px; width: 40px; }
+#xngr_wbs_content .mm_field_set_right2 { float: left;  margin: 0px 5px 0px 0px; padding: 0px; width: 133px; }
+
+
+#xngr_wbs_content .mm_field_set_label { float: left; margin: 0px; padding: 0px; width: 152px;}
+#xngr_wbs_content .mm_field_set_label span { margin: 0px; padding: 0px; }
+#xngr_wbs_content .mm_field_set_label1 { float: right; margin: 0px; padding: 0px; width: 250px;}
+#xngr_wbs_content .mm_field_set_label1 span { margin: 0px 0px 0px -45px; padding: 0px; }
+
+#xngr_wbs_content .mm_field_set_user_entry { float: left; clear: right; margin: 0px; padding: 0px; }
+
+#xngr_wbs_content .mm_field_set_user_entry span { margin: 0px; padding: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry select { border: 1px solid #999; border-radius: 4px 4px 4px 4px; margin: 0px 0px 5px 0px; padding: 0px; width: 290px; }
+#xngr_wbs_content .mm_field_set_user_entry select.short { width: 100px; }
+#xngr_wbs_content .mm_field_set_user_entry input[type="text"] {margin-bottom: 5px; background-color: #fff; border: 0 none; color: #484848; font-family: Mama Shelter; font-size: 12px; font-weight: 300; width: 290px; }
+#xngr_wbs_content .clearboth { clear: both; }
+#xngr_wbs_content .mm_field_set_user_entry input[type="text"].short { width: 93px; }
+#xngr_wbs_content .mm_field_set_user_entry input[type="password"] { border: 1px solid #999; margin: 0px; padding: 1px; width: 200px; font-family: Arial, sans-serif; font-size: 0.75em; }
+#xngr_wbs_content .mm_field_set_user_entry input[type="text"].time_set { width: 20px; }
+#xngr_wbs_content .mm_field_set_user_entry input[type="radio"].time_set { margin: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry input[type="checkbox"] { border: 1px solid #999; }
+#xngr_wbs_content .mm_field_set_user_entry textarea { background-color: #fff; clear: both; border: 0 none; margin-top:10px;margin-left: 155px; width: 290px; height: 40px; color: #484848; font-family: Mama Shelter; font-size: 12px; font-weight: 300; }
+#xngr_wbs_content .mm_field_set_user_entrytext {text-decoration: none; color: #626262; }
+#xngr_wbs_content .mm_field_set_usert_entry a { text-decoration: underline; color: #626262; margin-left: 30px; }
+#xngr_wbs_content .mm_field_set_usert_entry a:hover { color: #626262; margin-left: 30px;}
+#xngr_wbs_content .mm_guest_details_payment_gateway_notice { }
+
+#xngr_wbs_content .mm_field_set_user_entry1 { float: left; clear: right; margin: 0px; padding: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry1 span { margin: 0px; padding: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry1 select { border: 1px solid #999; border-radius: 4px 4px 4px 4px; margin: 0px 0px 5px 0px; padding: 0px; width: 200px; }
+#xngr_wbs_content .mm_field_set_user_entry1 select.short { width: 100px; }
+#xngr_wbs_content .mm_field_set_user_entry1 input[type="text"] {margin-bottom: 5px; background-color: #fff; border: 0 none; color: #484848; font-family: Mama Shelter; font-size: 12px; font-weight: 300; width: 90px; }
+#xngr_wbs_content .clearboth { clear: both; }
+#xngr_wbs_content .mm_field_set_user_entry1 input[type="text"].short { width: 93px; }
+#xngr_wbs_content .mm_field_set_user_entry1 input[type="password"] { border: 1px solid #999; margin: 0px; padding: 1px; width: 200px; font-family: Arial, sans-serif; font-size: 0.75em; }
+#xngr_wbs_content .mm_field_set_user_entry1 input[type="text"].time_set { width: 20px; }
+#xngr_wbs_content .mm_field_set_user_entry1 input[type="radio"].time_set { margin: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry1 input[type="checkbox"] { border: 1px solid #999; }
+#xngr_wbs_content .mm_field_set_user_entry1 textarea { background-color: #EBEBEB; clear: both; border: 0 none; border-radius: 4px 4px 4px 4px; color: #484848; font-family: Mama Shelter; font-size: 12px; font-weight: 300; }
+#xngr_wbs_content .mm_field_set_user_entry1 a { text-decoration: underline; color: #626262; }
+#xngr_wbs_content .mm_field_set_user_entry1 a:hover { color: #626262; }
+
+
+#xngr_wbs_content .mm_field_set_user_entry2 { float: left; clear: right; margin: 0px; padding: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry2 span { margin: 0px; padding: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry2 select { border: 1px solid #999; border-radius: 4px 4px 4px 4px; margin: 0px 0px 5px 0px; padding: 0px; width: 200px; }
+#xngr_wbs_content .mm_field_set_user_entry2 select.short { width: 100px; }
+#xngr_wbs_content .mm_field_set_user_entry2 input[type="text"] {margin: 0px 0px 5px 40px; background-color: #fff; border: 0 none; color: #484848; font-family: Mama Shelter; font-size: 12px; font-weight: 300; width: 93px; }
+#xngr_wbs_content .clearboth { clear: both; }
+#xngr_wbs_content .mm_field_set_user_entry2 input[type="text"].short { width: 103px; }
+#xngr_wbs_content .mm_field_set_user_entry2 input[type="password"] { border: 1px solid #999; margin: 0px; padding: 1px; width: 200px; font-family: Arial, sans-serif; font-size: 0.75em; }
+#xngr_wbs_content .mm_field_set_user_entry2 input[type="text"].time_set { width: 20px; }
+#xngr_wbs_content .mm_field_set_user_entry2 input[type="radio"].time_set { margin: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry2 input[type="checkbox"] { border: 1px solid #999; }
+#xngr_wbs_content .mm_field_set_user_entry2 textarea { background-color: #EBEBEB; clear: both; border: 0 none; border-radius: 4px 4px 4px 4px; color: #484848; font-family: Mama Shelter; font-size: 12px; font-weight: 300; }
+#xngr_wbs_content .mm_field_set_user_entry2 a { text-decoration: underline; color: #626262; }
+#xngr_wbs_content .mm_field_set_user_entry2 a:hover { color: #626262; }
+
+.mm_wrapper_confirm_button {font-family: Mama Shelter; text-transform: uppercase; font-size: 12px;  padding: 35px 0px 0px 0px; margin: 0px; background: url("images/sprites1.png") no-repeat; background-position: center; width: 452px; height: 94px; border: none;}
+
+.mm_page_error { padding: 0px; margin: 0px; margin-bottom: 20px; font-size: 13px; color: #484848;}
+
+.mm_error_block { float: left; clear: right; }
+.mm_page_error_instructions { margin-left: 10px; }
+.mm_page_error_instructions h3 { font-weight: 600; text-transform: uppercase; }
+.mm_page_error_instructions p { text-transform: none; color: Red; text-decoration: underline;}
+
+
+/* Payment Receipt */
+.mm_payment_receipt_summary { height: 140px; margin: 0px; padding: 10px; }
+.mm_text_no_transform { text-transform: none; color: #EBEBEB; font-size: 13px; font-weight: 300; }
+.mm_payment_receipt_row { color: #EBEBEB; float: left; clear: both; width: 400px; height: 25px; position: relative; }
+.mm_payment_receipt_left { float: left; clear: right; width: 100px; }
+._payment_receipt_right { float: right; clear: left; }
+
+/* Cancel Reservation */
+.mm_wrapper_button_locate_reservation { margin-top: 5px; float: right; clear: both; position: relative; width: 150px; height: 20px; border-radius: 4px; background-color: #626262; margin-right: 10px; }
+
+.mm_button_locate_reservation { background: transparent; border: 0px; width: 100%; height: 100%; color: White; font-weight: 300; text-transform: none; font-family: Mama Shelter; text-align: center; vertical-align: middle; cursor: pointer; }
+
+.mm_checkbox_cancel_room { position: absolute; margin: 0px; padding: 0px; top: 5px; right: 10px; color: #EBEBEB; }
+
+.mm_wrapper_confirm_cancel { margin-top: 5px; margin-right: 5px; float: right; clear: both; position: relative; width: 230px; height: 20px; border-radius: 4px; background-color: #626262; }
+
+.mm_wrapper_cancel_addon_detail { background: transparent; border: 0px; padding: 0px; margin: 0px; }
+
+.mm_text_cancellation { float: left; clear: both; }
+
+
+.mm_footer { font-size: 11px; font-family: Mama Shelter; margin: 10px; float: left; }
+
+.mm_footer ul { padding: 0px; margin: 0px; float: left; list-style: none outside none; }
+.mm_footer ul li { float: left; }
+.mm_footer_option { position: relative; text-decoration: none; text-transform: uppercase; color: #626262; }
+
+.mm_footer_invisible { font-weight: 600; visibility: hidden; }
+.mm_divider { padding: 0px 7px 0px 5px; font-weight: 300; }
+.mm_foter_option_item { position: absolute; top: 0px; left: 18px; font-weight: 300; }
+.mm_foter_option_item:hover { font-weight: 600; }
+
+
+
+
+
+.mm_footer li { float: left; list-style-type: none; }

@@ -1,0 +1,1 @@
+"C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin\xsd.exe" PropertyList.xsd /classes /language:CS /namespace:XHS.WBS.PropertyList

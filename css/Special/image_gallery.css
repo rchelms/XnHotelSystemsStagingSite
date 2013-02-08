@@ -1,0 +1,43 @@
+/* Xn GlobalRES WBS UI CSS Document - Image Gallery */
+
+/* General */
+
+#xngr_wbs_image_gallery {float: left; clear: both; background-color: #fff; margin: 0px; padding: 0px; font-family: Verdana, Arial, sans-serif; font-size: 16px;}
+
+#xngr_wbs_image_gallery h1, h2, h3, h4, h5, h6 {font-weight: normal; color: #333333;}
+#xngr_wbs_image_gallery h1 {font-size: 3.0em; line-height: 1.0; margin-bottom: 0.5em;}
+#xngr_wbs_image_gallery h2 {font-size: 2.0em; line-height: 1.0; margin-bottom: 0.75em;}
+#xngr_wbs_image_gallery h3 {font-size: 0.85em; line-height: 1.0; margin-bottom: 0.5em;}
+#xngr_wbs_image_gallery h4 {font-size: 0.75em; line-height: 1.0; margin-bottom: 0.5em;}
+#xngr_wbs_image_gallery h5 {font-size: 0.65em; line-height: 1.0; margin-bottom: 0.5em;}
+#xngr_wbs_image_gallery p {font-size: 0.75em; font-weight: normal; color: #444; line-height: 1.2;}
+
+#xngr_wbs_image_gallery .std_button {cursor: pointer; cursor: hand;}
+#xngr_wbs_image_gallery .std_button_left {background:transparent url(images/btn.gif) left top no-repeat; padding-left:5px;}
+#xngr_wbs_image_gallery .std_button_right {background:transparent url(images/btn.gif) right -27px no-repeat; padding-right:5px;}
+#xngr_wbs_image_gallery .std_button_center {background:transparent url(images/btn.gif) left -54px repeat-x; height:25px;}
+#xngr_wbs_image_gallery .std_button_control {background-color: Transparent; border-style: none; cursor: pointer; cursor: hand; font-size: 0.75em; color: #fff; padding-top: 3px;}
+#xngr_wbs_image_gallery .std_button_control:hover {background-color: Transparent; border-style: none; cursor: pointer; cursor: hand; font-size: 0.75em; color: #444; padding-top: 3px;}
+
+/* Image Gallery */
+
+#xngr_wbs_image_gallery .image_gallery_container {float: left; clear: both; margin: 0px 0px 20px 20px; padding: 0px; background-color: #fff;}
+#xngr_wbs_image_gallery .image_gallery_content {float: left; clear: both; margin: 0px; padding: 0px; border: solid 1px #ccc;}
+#xngr_wbs_image_gallery .image_gallery_header {float: left; clear: both; width: 500px; margin: 10px 16px 5px 16px; padding: 0px; text-align: center;}
+#xngr_wbs_image_gallery .image_gallery_header span {font-size: 0.75em; font-weight: bold; color: #333333;}
+#xngr_wbs_image_gallery .image_gallery_image {float: left; clear: both; width: 500px; height: 375px; margin: 0px 15px 5px 15px; padding: 0px; border: solid 1px #ccc;}
+#xngr_wbs_image_gallery .image_gallery_image img {width: 500px; height: 375px;}
+#xngr_wbs_image_gallery .image_gallery_description {float: left; clear: both; width: 500px; height: 3.00em; margin: 0px 16px 5px 16px; padding: 0px;}
+#xngr_wbs_image_gallery .image_gallery_description span {font-size: 0.75em; font-weight: normal; color: #444;}
+#xngr_wbs_image_gallery .image_gallery_thumbstrip {float: left; clear: both; width: 532px; height: 85px; background-color: #aaa; margin: 0px 0px 5px 0px; padding: 0px;}
+#xngr_wbs_image_gallery .image_gallery_thumbstrip_nav {float: left; clear: right; width: 16px; height: 16px; background-color: #ddd; margin: 7px 10px 7px 10px; padding: 27px 2px 28px 2px; vertical-align: middle;}
+#xngr_wbs_image_gallery .image_gallery_thumbstrip_thumb {float: left; clear: right; width: 95px; height: 71px; margin: 5px 7px 5px 7px; padding: 0px; border: solid 2px #aaa;}
+#xngr_wbs_image_gallery .image_gallery_thumbstrip_thumb_selected {float: left; clear: right; width: 95px; height: 71px; margin: 5px 7px 5px 7px; padding: 0px; border: solid 2px #fff;}
+#xngr_wbs_image_gallery .image_gallery_thumbstrip_thumb img {width: 95px; height: 71px;}
+#xngr_wbs_image_gallery .image_gallery_hotel {float: left; clear: both; width: 500px; margin: 0px 16px 5px 16px; padding: 0px;}
+#xngr_wbs_image_gallery .image_gallery_hotel span {font-size: 0.75em; font-weight: bold; color: #666;}
+#xngr_wbs_image_gallery .image_gallery_nav {float: left; clear: both; width: 500px; margin: 0px 16px 10px 16px; padding: 0px;}
+#xngr_wbs_image_gallery .image_gallery_nav_col1 {float: left; clear: right; width: 50%;}
+#xngr_wbs_image_gallery .image_gallery_nav_col1 span {font-size: 0.75em; font-weight: normal; color: #666;}
+#xngr_wbs_image_gallery .image_gallery_nav_col2 {float: right; clear: right; width: 50%; text-align: right;}
+#xngr_wbs_image_gallery .image_gallery_nav_col2 .std_button {float: right; margin-left: 12px;}

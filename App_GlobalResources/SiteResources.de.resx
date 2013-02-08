@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BookingStep1" xml:space="preserve">
+    <value>Etappe 1</value>
+  </data>
+  <data name="BookingStep2" xml:space="preserve">
+    <value>Etappe 2</value>
+  </data>
+  <data name="BookingStep3" xml:space="preserve">
+    <value>Etappe 3</value>
+  </data>
+  <data name="BookingStep4" xml:space="preserve">
+    <value>Etappe 4</value>
+  </data>
+  <data name="BookingStep5" xml:space="preserve">
+    <value>Etappe 5</value>
+  </data>
+  <data name="BookingStepChooseHotel" xml:space="preserve">
+    <value>Ein Hotel finden</value>
+  </data>
+  <data name="BookingStepChooseRate" xml:space="preserve">
+    <value>Wählen Sie ein Zimmer</value>
+  </data>
+  <data name="BookingStepChooseYourExtras" xml:space="preserve">
+    <value>Wählen Sie Ihre Zusatzkosten</value>
+  </data>
+  <data name="BookingStepConfirmation" xml:space="preserve">
+    <value>Bestätigung</value>
+  </data>
+  <data name="BookingStepEnterYourDetails" xml:space="preserve">
+    <value>Geben Sie Ihre Angaben ein</value>
+  </data>
+  <data name="CancelStep1" xml:space="preserve">
+    <value>Etappe 1</value>
+  </data>
+  <data name="CancelStep2" xml:space="preserve">
+    <value>Etappe 2</value>
+  </data>
+  <data name="CancelStep3" xml:space="preserve">
+    <value>Etappe 3</value>
+  </data>
+  <data name="CancelStepConfirmation" xml:space="preserve">
+    <value>Bestätigung</value>
+  </data>
+  <data name="CancelStepIdentifyRooms" xml:space="preserve">
+    <value>Identifizieren Sie die Zimmer zu stonieren</value>
+  </data>
+  <data name="CardTypeAX" xml:space="preserve">
+    <value>American Express</value>
+  </data>
+  <data name="CardTypeCA" xml:space="preserve">
+    <value>Mastercard International</value>
+  </data>
+  <data name="CardTypeDC" xml:space="preserve">
+    <value>Diners Club</value>
+  </data>
+  <data name="CardTypeJC" xml:space="preserve">
+    <value>Japanese Credit Bureau</value>
+  </data>
+  <data name="CardTypeMC" xml:space="preserve">
+    <value>Eurocard / Mastercard</value>
+  </data>
+  <data name="CardTypeMS" xml:space="preserve">
+    <value>Maestro / Switch</value>
+  </data>
+  <data name="CardTypeVI" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="RoomSelectorMenuText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AcceptedPaymentCardsNone" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CancelPolicyFeeFixedAmount" xml:space="preserve">
+    <value>Die Stornierungskosten betragen {cancel_penalty_amount} { cancel_penalty_currency}</value>
+  </data>
+  <data name="CancelPolicyFeeNumNights" xml:space="preserve">
+    <value>Die Stornierungsgebühr entspricht einem Betrag von {cancel_penalty_number_nights} Nacht/Nächten</value>
+  </data>
+  <data name="CancelPolicyFeePercentOfStay" xml:space="preserve">
+    <value>Die Stornierungskosten sind egal zu den Kosten von {cancel_penalty_percent} Prozent von der Gesamtsumme Ihres Aufenthaltes.</value>
+  </data>
+  <data name="CancelPolicyNonrefundable" xml:space="preserve">
+    <value>Diese Rate ist nicht erstattbar</value>
+  </data>
+  <data name="CancelPolicyNoticeBeforeDayOfArrivalDays" xml:space="preserve">
+    <value>Wenn Sie {cancel_deadline_days} Tage vor der Anreise stornieren, meiden Sie die Stornierungskosten.</value>
+  </data>
+  <data name="CancelPolicyNoticeBeforeDayOfArrivalHours" xml:space="preserve">
+    <value>Wenn Sie {cancel_deadline_hours} Stunden vor der Anreise stornieren, meiden Sie die Stornierungskosten</value>
+  </data>
+  <data name="CancelPolicyNoticeOnDayOfArrival" xml:space="preserve">
+    <value>Wenn Sie um {cancel_deadline_time} stornieren, meiden Sie die Stornierungskosten.</value>
+  </data>
+  <data name="DepositlPolicyNumNights" xml:space="preserve">
+    <value>Die verlangte Anzahlung beträgt {deposit_number_nights} Nächte Ihres Aufenthaltes.</value>
+  </data>
+  <data name="DepositPolicyFixedAmount" xml:space="preserve">
+    <value>Die verlangte Anzahlung beträgt {deposit_amount} {deposit_currency}</value>
+  </data>
+  <data name="DepositPolicyNone" xml:space="preserve">
+    <value>Für diesen Tarif ist bei Buchung eine nicht rückerstattbare Vorauszahlung erforderlich</value>
+  </data>
+  <data name="DepositPolicyNonrefundable" xml:space="preserve">
+    <value>Bei diesem Tarif sind keine Erstattungen, Stornierungen, Änderungen oder Übertragungen möglich. Bei Nichterscheinen des Kunden verfällt die Reservierung und die Anzahlung wird nicht erstattet.</value>
+  </data>
+  <data name="DepositPolicyPercentOfStay" xml:space="preserve">
+    <value>Eine Anzahlung von {deposit_percent} des gesamten Aufenthaltes wird verlangt.</value>
+  </data>
+  <data name="DepositPolicyRefundable" xml:space="preserve">
+    <value>Eine Anzahlung wird am Tag der Buchung für diese Rate verlangt. </value>
+  </data>
+  <data name="GuaranteePolicyCreditCard" xml:space="preserve">
+    <value>Die Kreditkarte wird als Garantie verlangt.</value>
+  </data>
+  <data name="GuaranteePolicyDeposit" xml:space="preserve">
+    <value>Eine Anzahlung wird am Tag der Buchung für diese Rate verlangt.</value>
+  </data>
+  <data name="GuaranteePolicyNone" xml:space="preserve">
+    <value>Es wird keine Garantie verlangt aber wird akzeptiert.</value>
+  </data>
+  <data name="MaxLengthOfStay" xml:space="preserve">
+    <value>Ein Aufenthalt von nicht mehr als {max_los_days} Nächten ist erlaubt.</value>
+  </data>
+  <data name="MinLengthOfStay" xml:space="preserve">
+    <value>Es wird ein Aufenthalt von mindestens {min_los_days} Nacht verlangt.</value>
+  </data>
+  <data name="CancelStepLocateReservation" xml:space="preserve">
+    <value>Lokalisieren Sie Ihre Reservierung um zu stornieren</value>
+  </data>
+  <data name="BookingRestrictionNoticeClosing" xml:space="preserve">
+    <value>{Hotel} Unterbrechung der Arbeiten ab {Datum1} </value>
+  </data>
+  <data name="BookingRestrictionNoticeOpening" xml:space="preserve">
+    <value>{Hotel} Beginn der Arbeiten am {Datum 1}.</value>
+  </data>
+  <data name="BookingRestrictionNoticeRefurbishment" xml:space="preserve">
+    <value>{Hotel}  Renovierungsarbeiten vom {Datum1} bis zum {Datum2}, in dieser Zeit kein Aufenthalt möglich</value>
+  </data>
+  <data name="BookingRestrictionNoticeRepairs" xml:space="preserve">
+    <value>{Hotel} Reparaturarbeiten vom {Datum1} bis zum {Datum2}, in dieser Zeit kein Aufenthalt möglich</value>
+  </data>
+  <data name="BookingStep6" xml:space="preserve">
+    <value>Etappe 6</value>
+  </data>
+  <data name="BookingStepSearchHotel" xml:space="preserve">
+    <value>Ein Hotel suchen</value>
+  </data>
+  <data name="ClosedToArrival" xml:space="preserve">
+    <value>Mit diesem Tarif ist keine Buchung mit dem gewünschten Ankunftdatum möglich</value>
+  </data>
+  <data name="CountryDE" xml:space="preserve">
+    <value>Deutschland</value>
+  </data>
+  <data name="CountryDK" xml:space="preserve">
+    <value>Dänemark</value>
+  </data>
+  <data name="CountryGB" xml:space="preserve">
+    <value>Großbritannien</value>
+  </data>
+  <data name="CountryHU" xml:space="preserve">
+    <value>Ungarn</value>
+  </data>
+  <data name="CountryNZ" xml:space="preserve">
+    <value>Neuseeland</value>
+  </data>
+  <data name="MaxAPDays" xml:space="preserve">
+    <value>Dieser Tarif kann nicht mehr als {max_ap_days} im voraus bezahlt werden</value>
+  </data>
+  <data name="MinAPDays" xml:space="preserve">
+    <value>Dieser Tarif muss mindestens {min_ap_days} im voraus bezahlt werden</value>
+  </data>
+  <data name="PaymentCardDepositOnly" xml:space="preserve">
+    <value>Diese Kreditkarte wird zum Zeitpunkt der Buchung mit einer Vorauszahlungssumme in Höhe von {deposit_currency} {deposit_amount} belastet</value>
+  </data>
+  <data name="PaymentCardGuaranteeAndDeposit" xml:space="preserve">
+    <value>Bei Tarifen, die eine Vorauszahlung erfordern, wird diese Kreditkarte zum Zeitpunkt der Buchung mit einer Vorauszahlungssummer in Höhe von {deposit_currency} {deposit_amount} belastet; bei Tarifen, die keine Vorauszahlung erfordern, dient sie als Garantie für die gebuchten Zimmer </value>
+  </data>
+  <data name="PaymentCardGuaranteeOnly" xml:space="preserve">
+    <value>Diese Kreditkarte dient lediglich als Buchungsgarantie. Momentan ist keine Zahlung notwendig.</value>
+  </data>
+  <data name="CardTypeEC" xml:space="preserve">
+    <value>Eurocard</value>
+  </data>
+  <data name="CountryAU" xml:space="preserve">
+    <value>Australien</value>
+  </data>
+  <data name="AltPaymentCardDepositOnly" xml:space="preserve">
+    <value>Sie werden zu einem Sicherheitsgefühl gebenen Zahlungsseite wieder geleitet sein, um eine Vorbezahlung / Abschlagszahlung zu bezahlen {deposit_currency} { deposit_amount } die Kundenkreditkarte benutzend, daß Sie auf der Sicherheitsgefühl gegebenen Zahlungsseite genau angegeben haben.</value>
+  </data>
+  <data name="AltPaymentCardGuaranteeAndDeposit" xml:space="preserve">
+    <value>Sie werden zu einem Sicherheitsgefühl gebenen Zahlungsseite geleitet sein, um eine Vorbezahlung / Abschlagszahlung zu zahlen{deposit_currency} { deposit_amount } der Kundenkreditkarte benutzend, daß Sie auf der Sicherheitsgefühl gegebenen Zahlungsseite genau angeben. Die gewählte Kundenkreditkarte wird auch benutzt sein, um die Zimmer zu garantieren, die keine Vorbezahlung oder von der Abschlagszahlung fordern.</value>
+  </data>
+  <data name="CardLogoAX" xml:space="preserve">
+    <value>~/images/CardLogos/ax.jpg</value>
+  </data>
+  <data name="CardLogoCA" xml:space="preserve">
+    <value>~/images/CardLogos/mc.jpg</value>
+  </data>
+  <data name="CardLogoDC" xml:space="preserve">
+    <value>~/images/CardLogos/dc.gif</value>
+  </data>
+  <data name="CardLogoEC" xml:space="preserve">
+    <value>~/images/CardLogos/ec.gif</value>
+  </data>
+  <data name="CardLogoJC" xml:space="preserve">
+    <value>~/images/CardLogos/jc.gif</value>
+  </data>
+  <data name="CardLogoMC" xml:space="preserve">
+    <value>~/images/CardLogos/mc.jpg</value>
+  </data>
+  <data name="CardLogoMS" xml:space="preserve">
+    <value>~/images/CardLogos/ms.gif</value>
+  </data>
+  <data name="CardLogoVI" xml:space="preserve">
+    <value>~/images/CardLogos/vi.gif</value>
+  </data>
+  <data name="NetRateIndicator" xml:space="preserve">
+    <value>net</value>
+  </data>
+  <data name="RateGridLegendArrival" xml:space="preserve">
+    <value>Arr</value>
+  </data>
+  <data name="RateGridLegendDeparture" xml:space="preserve">
+    <value>Dep</value>
+  </data>
+  <data name="RateGridLegendInStay" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="AltPaymentCardGuaranteeOnly" xml:space="preserve">
+    <value>Diese Kreditkarte dient lediglich als Buchungsgarantie. Momentan ist keine Zahlung notwendig.</value>
+  </data>
+  <data name="PaymentGatewaySelectInstructions" xml:space="preserve">
+    <value>Wählen Sie bitte den Typ von Kundenkreditkarte, den Sie benutzen werden, um die Vorbezahlung / Abschlagszahlung zu zahlen {deposit_currency} { deposit_amount }.</value>
+  </data>
+</root>

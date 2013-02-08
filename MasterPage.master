@@ -1,0 +1,210 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Reference Control="~/controls/LanguageSelectorControl.1.ascx" %>
+<%@ Reference Control="~/controls/LanguageSelectorItemControl.1.ascx" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js">
+<head id="head_element" runat="server">
+    <title>Mama Shelter Online Booking System</title>
+    <xnc:xscript ID="Xscript1" src="~/scripts/jquery.min.js" type="text/javascript" Location="SharedCDNPath"
+        runat="server" />
+    <xnc:xlink ID="Xlink1" href="~/css/jQueryUI/jquery-ui-1.8.18.custom.css" rel="stylesheet"
+        Location="SharedCDNPath" type="text/css" runat="server" />
+    <xnc:xscript ID="Xscript2" type="text/javascript" src="~/css/jQueryUI/jquery-ui-1.8.18.custom.min.js"
+        Location="SharedCDNPath" runat="server" />
+    <xnc:xscript ID="Xscript3" type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js"
+        runat="server">
+    </xnc:xscript>
+    <xnc:xscript ID="Xscript4" type="text/javascript" src="~/highslide/highslide-with-html.js"
+        Location="SharedCDNPath" runat="server" />
+    <xnc:xlink ID="Xlink2" href="~/highslide/themes/highslide.css" rel="stylesheet" Location="SharedCDNPath"
+        type="text/css" runat="server" />
+    <xnc:xlink ID="Xlink3" href="~/css/Default/wbs_main.css" type="text/css" rel="stylesheet"
+        Location="CSSCDNPath" runat="server" />
+    <xnc:xlink ID="Xlink4" href="~/css/MamaShelter/MamaShelter.css" type="text/css" rel="stylesheet"
+        Location="CSSCDNPath" runat="server" />
+    <xnc:xscript ID="Xscript5" type="text/javascript" src="~/scripts/modernizr.custom.92858.js"
+        Location="SharedCDNPath" runat="server" />
+    <xnc:xscript ID="Xscript6" type="text/javascript" src="~/scripts/mamashelter.js"
+        Location="SharedCDNPath" runat="server" />
+</head>
+<body>
+    <script type="text/javascript">
+        hs.graphicsDir = '<% = ResolveClientUrl(URLConverter.Convert("~/highslide/graphics/", "", LocationType.SharedCDNPath, this)) %>';
+        hs.outlineType = 'rounded-white';
+        hs.outlineWhileAnimating = true;
+        hs.showCredits = false;
+        var __ScrollTop = false;
+    </script>
+    <iframe id="bingAnalyticHolder" src="" frameborder="0" scrolling="no" width="1" height="1"
+        style="visibility: hidden; display: none"></iframe>
+    <div id="container">
+        <div id="page_header">
+            <div class="MM_header_wrapper">
+                <div class="MM_logo">
+                </div>
+                <div class="MM_navigation">
+                    <ul>
+                        <li><a href="http://www.mamashelter.com/paris/">Paris</a></li>
+                        <li><a href="http://www.mamashelter.com/marseille/">Marseille</a></li>
+                    </ul>
+                </div>
+                <div class="MM_booking">
+                    <a href='<% =ResolveClientUrl("~/Pages/Default.aspx") %>?res=1' class="mm_mama_say_link">
+                        <h3 class="MM_booking_infoheader">
+                            <asp:Label runat="server" Text="<%$ Resources:MasterPageResources, MamaSays %>"></asp:Label></h3>
+                        <asp:Label ID="Label2" runat="server" Text="<%$ Resources:MasterPageResources, Book %>"></asp:Label>
+                        <span class="MM_booking_info">
+                            <asp:Label ID="Label1" runat="server" Text="<%$ Resources:MasterPageResources, ARoom %>"></asp:Label></span></a>
+                </div>
+            </div>
+        </div>
+        <div id="page_body">
+            <div id="col_right">
+                <%--<div class="top_image">
+                    <xnc:ximg src="~/images/topBanner.jpg" Location="ImageCDNPath" alt="" width="657"
+                        height="167" runat="server" />
+                </div>--%>
+                <div id="xngr_wbs_content">
+                    <form id="main" runat="server">
+                    <asp:ScriptManager ID="ScriptManager1" EnableCdn="true" runat="server" EnablePartialRendering="true">
+                    </asp:ScriptManager>
+                    <script type="text/javascript" language="javascript">
+                        prevStage = "";
+                        execBingAnalyticScript = function (stage) {
+                            if (prevStage == stage || stage == "")
+                                return;
+                            document.getElementById("bingAnalyticHolder").src = "TrackingPage.aspx?stage=" + stage;
+                            prevStage = stage;
+                        }
+
+                        Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () {
+                            if (__ScrollTop == true) {
+                                if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+                                    var viewPortTag = document.createElement('meta');
+                                    viewPortTag.id = "viewport";
+                                    viewPortTag.name = "viewport";
+                                    viewPortTag.content = "width=device-width; maximum-scale=1.0; minimum-scale=1.0;";
+                                    document.getElementsByTagName('head')[0].appendChild(viewPortTag);
+                                }
+                                if ($("#GuestDetailInfoForm").length > 0)
+                                    window.scrollTo($("#GuestDetailInfoForm").position().left, $("#GuestDetailInfoForm").position().top);
+                            }
+
+                            execBingAnalyticScript(__CurrentStage);
+                            closeWaitingPage();
+                        });
+                    </script>
+                    <asp:HiddenField ID="hfMainMenu1" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu1 %>" />
+                    <asp:HiddenField ID="hfMainMenu1PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu1PopUpUrl %>" />
+                    <asp:HiddenField ID="hfMainMenu2" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu2 %>" />
+                    <asp:HiddenField ID="hfMainMenu2PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu2PopUpUrl %>" />
+                    <asp:HiddenField ID="hfMainMenu3" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu3 %>" />
+                    <asp:HiddenField ID="hfMainMenu3PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu3PopUpUrl %>" />
+                    <asp:HiddenField ID="hfMainMenu4" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu4 %>" />
+                    <asp:HiddenField ID="hfMainMenu4PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu4PopUpUrl %>" />
+                    <asp:HiddenField ID="hfMainMenu5" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu5 %>" />
+                    <asp:HiddenField ID="hfMainMenu5PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu5PopUpUrl %>" />
+                    <asp:HiddenField ID="hfMainMenu6" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu6 %>" />
+                    <asp:HiddenField ID="hfMainMenu6PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu6PopUpUrl %>" />
+                    <asp:HiddenField ID="hfMainMenu7" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu7 %>" />
+                    <asp:HiddenField ID="hfMainMenu7PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu7PopUpUrl %>" />
+                    <asp:HiddenField ID="hfReservations" runat="server" Value="<%$ Resources:MasterPageResources, Reservations %>" />
+                    <asp:HiddenField ID="hfCancellations" runat="server" Value="<%$ Resources:MasterPageResources, Cancellations %>" />
+                    <asp:HiddenField ID="hfCopyright" runat="server" Value="<%$ Resources:MasterPageResources, Copyright %>" />
+                    <asp:HiddenField ID="hfTermsAndConditions" runat="server" Value="<%$ Resources:MasterPageResources, TermsAndConditions %>" />
+                    <asp:HiddenField ID="hfTermsAndConditionsPopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, TermsAndConditionsPopUpUrl %>" />
+                    <asp:HiddenField ID="hfPrivacyPolicy" runat="server" Value="<%$ Resources:MasterPageResources, PrivacyPolicy %>" />
+                    <asp:HiddenField ID="hfPrivacyPolicyPopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, PrivacyPolicyPopUpUrl %>" />
+                    <asp:ContentPlaceHolder ID="cphBody" runat="server" />
+                    <div id="page_footer" class="MM_Page_Footer">
+                        <asp:PlaceHolder ID="phLanguageSelectorControl" runat="server" />
+                        <div class="mm_footer">
+                            <ul>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu1PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu1.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                        /</span> <span class="mm_footer_invisible">
+                                            <% = hfMainMenu1.Value %></span> <span class="mm_foter_option_item">
+                                                <asp:Label runat="server" Text="<%$ Resources:MasterPageResources, MainMenu1 %>"></asp:Label></span></a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu2PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu2.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                        /</span> <span class="mm_footer_invisible">
+                                            <% = hfMainMenu2.Value %></span> <span class="mm_foter_option_item">
+                                                <asp:Label ID="Label7" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu2 %>"></asp:Label></span></a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu3PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu3.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                        /</span> <span class="mm_footer_invisible">
+                                            <% = hfMainMenu3.Value %></span> <span class="mm_foter_option_item">
+                                                <asp:Label ID="Label9" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu3 %>"></asp:Label></span></a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu4PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu3.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                        /</span> <span class="mm_footer_invisible">
+                                            <% = hfMainMenu4.Value %></span> <span class="mm_foter_option_item">
+                                                <asp:Label ID="Label11" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu4 %>"></asp:Label></span></a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu5PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu3.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                        /</span> <span class="mm_footer_invisible">
+                                            <% = hfMainMenu5.Value %></span> <span class="mm_foter_option_item">
+                                                <asp:Label ID="Label13" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu5 %>"></asp:Label></span></a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu6PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu3.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                        /</span> <span class="mm_footer_invisible">
+                                            <% = hfMainMenu6.Value %></span> <span class="mm_foter_option_item">
+                                                <asp:Label ID="Label15" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu6 %>"></asp:Label></span></a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu7PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu7.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                        /</span> <span class="mm_footer_invisible">
+                                            <% = hfMainMenu7.Value %></span> <span class="mm_foter_option_item">
+                                                <asp:Label ID="Label5" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu7 %>"></asp:Label></span></a></li>
+                                <li><a href='<% =ResolveClientUrl("~/Pages/CancelReservation.aspx") %>' title="<% = hfCancellations.Value %>"
+                                    class="mm_footer_option"><span class="mm_divider">/</span> <span class="mm_footer_invisible">
+                                        <asp:Label ID="Label16" runat="server" Text="<%$ Resources:MasterPageResources, Cancellations %>"></asp:Label></span>
+                                    <span class="mm_foter_option_item">
+                                        <asp:Label ID="Label17" runat="server" Text="<%$ Resources:MasterPageResources, Cancellations %>"></asp:Label></span></a></li>
+                            </ul>
+                        </div>
+                        <!--<div class="mm_footer">
+                            <ul>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu1PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu1.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider">
+                                        /</span>
+                                    <% = hfMainMenu1.Value %>
+                                </a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu2PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu2.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
+                                    <% = hfMainMenu2.Value %>
+                                </a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu3PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu3.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
+                                    <% = hfMainMenu3.Value %>
+                                </a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu4PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu4.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
+                                    <% = hfMainMenu4.Value %>
+                                </a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu5PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu5.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
+                                    <% = hfMainMenu5.Value %>
+                                </a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu6PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu6.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
+                                    <% = hfMainMenu6.Value %>
+                                </a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu7PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu7.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
+                                    <% = hfMainMenu7.Value %>
+                                </a></li>
+                                <li><a href="../pages/CancelReservation.aspx" title="<% = hfCancellations.Value %>"
+                                    class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
+                                    <% = hfCancellations.Value %><span class="mm_divider"> / </span>
+                                </a></li>
+                            </ul>
+                        </div>-->
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

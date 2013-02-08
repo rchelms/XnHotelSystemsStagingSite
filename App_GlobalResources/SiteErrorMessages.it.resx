@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArrivalDateInPast" xml:space="preserve">
+    <value>La data d'arrivo è anteriore alla data odierna</value>
+  </data>
+  <data name="AvailCalDateSelectionsNotSequential" xml:space="preserve">
+    <value>Le date di disponibilità selezionate devono essere in ordine sequenziale</value>
+  </data>
+  <data name="BookingTermsConditionsNotAccepted" xml:space="preserve">
+    <value>I termini e le condizioni di prenotazione devono essere accettate per procedere a quest'ultima</value>
+  </data>
+  <data name="DepartureDateBeforeArrivalDate" xml:space="preserve">
+    <value>La data di pa même ou avant laartenza coincide o è anteriore alla data di arrivo</value>
+  </data>
+  <data name="IncorrectEmailEntry" xml:space="preserve">
+    <value>Vi preghiamo dde vérifier l'adresse e-mail rentrée Merci de vérifieMerci de vérifier l'adresse e-mail rentrr l'adresse e-mail reet la modifieri verificare il vostro indirizzo e-mail e di validare nuovamente</value>
+  </data>
+  <data name="NoAvailCalDateSelections" xml:space="preserve">
+    <value>Non è stata selezionata alcuna data del calendario delle disponibilità</value>
+  </data>
+  <data name="NoCityAddressEntry" xml:space="preserve">
+    <value>È necessario inserire il nome della città</value>
+  </data>
+  <data name="NoConfirmationNumberEntry" xml:space="preserve">
+    <value>È Un numéro de confirmation enecessario inserire il numero di conferma</value>
+  </data>
+  <data name="NoCountryAddressEntry" xml:space="preserve">
+    <value>È necessario inserire il nome del Paese</value>
+  </data>
+  <data name="NoEmailEntry" xml:space="preserve">
+    <value>È necessario inserire un indirizzo e-mail</value>
+  </data>
+  <data name="NoFirstNameEntry" xml:space="preserve">
+    <value>È necessario inserire il vostro nome</value>
+  </data>
+  <data name="NoPaymentCardHolderEntry" xml:space="preserve">
+    <value>È necessario inserire il nominativo del titolare della carta di credito</value>
+  </data>
+  <data name="NoPaymentCardNumberEntry" xml:space="preserve">
+    <value>È necessario inserire il numero della carta di credito</value>
+  </data>
+  <data name="NoPhoneEntry" xml:space="preserve">
+    <value>È necessario inserire un numero di telefono</value>
+  </data>
+  <data name="NoPostalCodeEntry" xml:space="preserve">
+    <value>È necessario inserire un codice postale</value>
+  </data>
+  <data name="NoPaymentCardSecurityCodeEntry" xml:space="preserve">
+    <value>È necessario inserire il codice di sicurezza della carta di credito</value>
+  </data>
+  <data name="NoPaymentCardTypeEntry" xml:space="preserve">
+    <value>È necessario inserire il tipo di carta di credito</value>
+  </data>
+  <data name="NoRoomOccupantSelection" xml:space="preserve">
+    <value>Siete tenuti a selezionare almeno un adulto o un bambino per camera</value>
+  </data>
+  <data name="NoRoomRateSelection" xml:space="preserve">
+    <value>Vous devez sélectionner un tarif pour chaque chSiete tenuti a selezionare una tariffa per ogni camera da prenotare</value>
+  </data>
+  <data name="NoRoomsSelectedToCancel" xml:space="preserve">
+    <value>Non avete selezionato alcuna camera da annullare</value>
+  </data>
+  <data name="NoStateRegionAddressEntry" xml:space="preserve">
+    <value>È necessario inserire una regione</value>
+  </data>
+  <data name="NoStreetAddressEntry" xml:space="preserve">
+    <value>È necessario inserire il nome della strada nell'indirizzo</value>
+  </data>
+  <data name="PaymentCardIsExpired" xml:space="preserve">
+    <value>La carta di credito è scaduta</value>
+  </data>
+  <data name="RequestedBookingNotLocated" xml:space="preserve">
+    <value>La prenotazione richiesta non ha potuto essere localizzata, è scaduta o è già stata annullata</value>
+  </data>
+  <data name="IncorrectArrivalTimeEntry" xml:space="preserve">
+    <value>Vi preghiamo di verificare la vostra ora d'arrivo e di validare nuovamente</value>
+  </data>
+  <data name="NoHotelSelection" xml:space="preserve">
+    <value>È necessario scegliere una città</value>
+  </data>
+  <data name="NoHotelsLocatedInSearch" xml:space="preserve">
+    <value>Non siamo stati in grado di localizzare una città secondo i vostri criteri di ricerca</value>
+  </data>
+  <data name="AirlineProgramInfoNotComplete" xml:space="preserve">
+    <value>Le informazioni indicate relative ai voli non sono complete</value>
+  </data>
+  <data name="HotelProgramInfoNotComplete" xml:space="preserve">
+    <value>Le informazioni indicate relative all'albergo non sono complete</value>
+  </data>
+  <data name="LoginCredentialsNotValid" xml:space="preserve">
+    <value>I dati del login non sono validi</value>
+  </data>
+  <data name="NoCountrySelection" xml:space="preserve">
+    <value>È nessaire de sélectionner un paysecessario selezionare un Paese</value>
+  </data>
+  <data name="NoDestinationSelection" xml:space="preserve">
+    <value>È necessario selezionare una destinazione</value>
+  </data>
+  <data name="NoLoginPasswordEntry" xml:space="preserve">
+    <value>È necessario inserire la vostra password</value>
+  </data>
+  <data name="RestrictedBookingDateRequested" xml:space="preserve">
+    <value>È stata richiesta una data di prenotazione limitata</value>
+  </data>
+  <data name="TooManyBookingDaysRequested" xml:space="preserve">
+    <value>È stato richiesto un numero di notti troppo elevato</value>
+  </data>
+  <data name="PaymentCardNumberEntryInvalid" xml:space="preserve">
+    <value>Il numero di carta di credito non è valido</value>
+  </data>
+  <data name="PaymentCardTypeEntryInvalid" xml:space="preserve">
+    <value>Il numero di carta di credito non è valido per il tipo di carta selezionato</value>
+  </data>
+  <data name="NoLoginNameEntry" xml:space="preserve">
+    <value>È neceIl est nécessaire d'enssario inserire il vostro cognome</value>
+  </data>
+  <data name="NoLastNameEntry" xml:space="preserve">
+    <value>È necessario inserire il vostro nominativo</value>
+  </data>
+  <data name="EmptyStayNight" xml:space="preserve">
+    <value>Selezionate almeno 1 notte</value>
+  </data>
+</root>
