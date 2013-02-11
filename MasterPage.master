@@ -47,6 +47,8 @@
                     <ul>
                         <li><a href="http://www.mamashelter.com/paris/">Paris</a></li>
                         <li><a href="http://www.mamashelter.com/marseille/">Marseille</a></li>
+                        <li><a href="http://www.mamashelter.com/istanbul/">Istanbul</a></li>
+                        <li><a href="http://www.mamashelter.com/lyon/">Lyon</a></li>
                     </ul>
                 </div>
                 <div class="MM_booking">
@@ -71,11 +73,11 @@
                     </asp:ScriptManager>
                     <script type="text/javascript" language="javascript">
                         prevStage = "";
-                        execBingAnalyticScript = function (stage) {
-                            if (prevStage == stage || stage == "")
+                        execBingAnalyticScript = function () {
+                            if (!__CurrentStage || prevStage == __CurrentStage || __CurrentStage == "")
                                 return;
-                            document.getElementById("bingAnalyticHolder").src = "TrackingPage.aspx?stage=" + stage;
-                            prevStage = stage;
+                            document.getElementById("bingAnalyticHolder").src = "TrackingPage.aspx?stage=" + __CurrentStage;
+                            prevStage = __CurrentStage;
                         }
 
                         Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () {
@@ -91,7 +93,7 @@
                                     window.scrollTo($("#GuestDetailInfoForm").position().left, $("#GuestDetailInfoForm").position().top);
                             }
 
-                            execBingAnalyticScript(__CurrentStage);
+                            execBingAnalyticScript();
                             closeWaitingPage();
                         });
                     </script>
@@ -125,7 +127,7 @@
                                     title="<% = hfMainMenu1.Value %>" class="mm_footer_option"><span class="mm_divider">
                                         /</span> <span class="mm_footer_invisible">
                                             <% = hfMainMenu1.Value %></span> <span class="mm_foter_option_item">
-                                                <asp:Label runat="server" Text="<%$ Resources:MasterPageResources, MainMenu1 %>"></asp:Label></span></a></li>
+                                                <asp:Label ID="Label3" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu1 %>"></asp:Label></span></a></li>
                                 <li><a href="javascript:void window.open('<% = hfMainMenu2PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
                                     title="<% = hfMainMenu2.Value %>" class="mm_footer_option"><span class="mm_divider">
                                         /</span> <span class="mm_footer_invisible">
