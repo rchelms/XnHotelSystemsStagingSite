@@ -173,6 +173,9 @@ public partial class MamaShelterBooking : XnGR_WBS_Page
    {
       get
       {
+         if (Session[Constants.Sessions.PaymentGatewayInfos] == null || ((PaymentGatewayInfo[])Session[Constants.Sessions.PaymentGatewayInfos]).Length <= 0)
+            Session[Constants.Sessions.PaymentGatewayInfos] = WBSPGHelper.GetPaymentGatewayInfos(StayCriteriaSelection.HotelCode);
+
          return (PaymentGatewayInfo[])Session[Constants.Sessions.PaymentGatewayInfos];
       }
       set
@@ -194,6 +197,9 @@ public partial class MamaShelterBooking : XnGR_WBS_Page
    {
       get
       {
+         if (Session[Constants.Sessions.HotelBookingPaymentAllocations] == null || ((HotelBookingPaymentAllocation[])(Session[Constants.Sessions.HotelBookingPaymentAllocations])).Length <= 0)
+            Session[Constants.Sessions.HotelBookingPaymentAllocations] = WBSPGHelper.GetPaymentAllocations(HotelPricingHelper.GetHotelPricing(StayCriteriaSelection, RoomRateSelections, AddOnPackageSelections, HotelAvailabilityRS.HotelRoomAvailInfos, CurrencyCode));
+
          return (HotelBookingPaymentAllocation[])Session[Constants.Sessions.HotelBookingPaymentAllocations];
       }
       set
@@ -351,6 +357,19 @@ public partial class MamaShelterBooking : XnGR_WBS_Page
          return _RemoteContentContainerUrl;
       }
    }
+
+   private string CurrencyCode
+   {
+      get
+      {
+         string strCurrencyCode = string.Empty;
+         if (HotelDescriptiveInfoRS.HotelDescriptiveInfos.Length > 0)
+            strCurrencyCode = HotelDescriptiveInfoRS.HotelDescriptiveInfos[0].CurrencyCode;
+
+         return strCurrencyCode;
+      }
+   }
+
 
    private string CDNLocationMappingString { get { return ConfigurationManager.AppSettings["CDNMapping." + StayCriteriaSelection.HotelCode]; } }
 
@@ -1299,6 +1318,16 @@ public partial class MamaShelterBooking : XnGR_WBS_Page
 
       string[] objPaymentCardCodes = objHotelDescriptiveInfo.CreditCardCodes;
 
+      // retrieve supported payment methods.
+      PaymentGatewayInfos = WBSPGHelper.GetPaymentGatewayInfos(StayCriteriaSelection.HotelCode);
+      // Calculate deposit ammount
+      HotelBookingPaymentAllocations = WBSPGHelper.GetPaymentAllocations(HotelPricingHelper.GetHotelPricing(StayCriteriaSelection, RoomRateSelections, AddOnPackageSelections, HotelAvailabilityRS.HotelRoomAvailInfos, CurrencyCode));
+
+      if (PaymentGatewayInfos.Length == 1)
+         Session[Constants.Sessions.PaymentGatewayInfo] = PaymentGatewayInfos[0];
+      else
+         Session[Constants.Sessions.PaymentGatewayInfo] = null; // if multiple gateways configured, payment gateway must be selected by method of payment
+
       for (int i = 0; i < objPaymentCardCodes.Length; i++) // mask out cards with no name lookup
       {
          if ((String)GetGlobalResourceObject("SiteResources", "CardType" + objPaymentCardCodes[i]) != null && (String)GetGlobalResourceObject("SiteResources", "CardType" + objPaymentCardCodes[i]) != "")
@@ -1759,18 +1788,6 @@ public partial class MamaShelterBooking : XnGR_WBS_Page
    {
       Step = BookingSteps.GuestInfo;
 
-      string strCurrencyCode = "";
-      if (HotelDescriptiveInfoRS.HotelDescriptiveInfos.Length > 0)
-         strCurrencyCode = HotelDescriptiveInfoRS.HotelDescriptiveInfos[0].CurrencyCode;
-
-      PaymentGatewayInfo[] objPaymentGatewayInfos = WBSPGHelper.GetPaymentGatewayInfos(StayCriteriaSelection.HotelCode);
-      Session[Constants.Sessions.PaymentGatewayInfos] = objPaymentGatewayInfos;
-      if (objPaymentGatewayInfos.Length == 1)
-         Session[Constants.Sessions.PaymentGatewayInfo] = objPaymentGatewayInfos[0];
-      else
-         Session[Constants.Sessions.PaymentGatewayInfo] = null; // if multiple gateways configured, payment gateway must be selected by method of payment
-
-      Session[Constants.Sessions.HotelBookingPaymentAllocations] = WBSPGHelper.GetPaymentAllocations(HotelPricingHelper.GetHotelPricing(StayCriteriaSelection, RoomRateSelections, AddOnPackageSelections, HotelAvailabilityRS.HotelRoomAvailInfos, strCurrencyCode));
       Session["HotelPaymentRQ"] = null;
       Session["HotelPaymentRS"] = null;
 
@@ -1790,29 +1807,14 @@ public partial class MamaShelterBooking : XnGR_WBS_Page
 
       if (!this.IsPageError)
       {
-         var log = ((FileLog)Application.Get("EventLog"));
-         var sb1 = new StringBuilder();
-         sb1.AppendLine(Serializer.ToString(objHotelBookingPaymentAllocations));
-         sb1.AppendLine("<IsOnlineCardType>" + WBSPGHelper.IsOnlineCardType(objPaymentGatewayInfos, ucGuestDetailsEntryControl.GuestDetailsEntryInfo.PaymentCardType) + "</IsOnlineCardType>");
-         log.Write(sb1.ToString());
-
-         if (WBSPGHelper.IsOnlinePayment(objPaymentGatewayInfos, objHotelBookingPaymentAllocations, ucGuestDetailsEntryControl.GuestDetailsEntryInfo.PaymentCardType))
+         if (WBSPGHelper.IsOnlinePayment(PaymentGatewayInfos, HotelBookingPaymentAllocations, ucGuestDetailsEntryControl.GuestDetailsEntryInfo.PaymentCardType))
          {
             Step = BookingSteps.ProcessPayment;
             Server.Transfer("~/Pages/SendPaymentRQ.aspx");
          }
 
          else
-         {
-            var sb = new StringBuilder();
-            sb.AppendLine("<NoneOnlinePaymentBookingInfo>");
-            sb.AppendLine(Serializer.ToString(StayCriteriaSelection));
-            sb.AppendLine(Serializer.ToString(RoomRateSelections));
-            sb.AppendLine(Serializer.ToString(AddOnPackageSelections));
-            sb.AppendLine("</NoneOnlinePaymentBookingInfo>");
-            log.Write(sb.ToString());
             BookRoom();
-         }
       }
 
       return;
@@ -2303,7 +2305,7 @@ public partial class MamaShelterBooking : XnGR_WBS_Page
    {
       string stage = string.Empty;
       var scrollTop = false;
-     
+
       if (Step == BookingSteps.SelectHotel)
          stage = "SelectHotel";
       else if (Step == BookingSteps.SelectRoomDetail && CurrentRoomDetailStep == RoomDetailSelectionStep.SelectRoomType)
