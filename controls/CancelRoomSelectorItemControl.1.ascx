@@ -9,7 +9,7 @@
                 CssClass="mm_checkbox_cancel_room" />
         </asp:Panel>
         
-        <asp:Panel runat="server" CssClass="mm_room_rate_content mm_text_info">
+        <asp:Panel runat="server" CssClass="mm_room_rate_content_cancellation mm_text_info_cancellation">
             <asp:Label ID="lblRoomTypeNameText" runat="server" Text="" CssClass="mm_text_bold" />
             <asp:Label ID="lblRatePlanNameText" runat="server" Text="" CssClass="mm_text_x_strong" />
             <asp:Panel runat="server">

@@ -341,10 +341,10 @@ Guest Info
 #xngr_wbs_content .mm_field_set_right2 { float: left;  margin: 0px 5px 0px 0px; padding: 0px; width: 133px; }
 
 
-#xngr_wbs_content .mm_field_set_label { float: left; margin: 0px; padding: 0px; width: 152px;}
+#xngr_wbs_content .mm_field_set_label { float: left; margin: 0px; padding: 0px; width: 152px; text-decoration: none;}
 #xngr_wbs_content .mm_field_set_label span { margin: 0px; padding: 0px; }
-#xngr_wbs_content .mm_field_set_label1 { float: right; margin: 0px; padding: 0px; width: 250px;}
-#xngr_wbs_content .mm_field_set_label1 span { margin: 0px 0px 0px -45px; padding: 0px; }
+#xngr_wbs_content .mm_field_set_label1 { float: right; margin: 0px; padding: 0px; width: 290px;}
+#xngr_wbs_content .mm_field_set_label1 span { margin: 0px 0px 0px 0px; padding: 0px; }
 
 #xngr_wbs_content .mm_field_set_user_entry { float: left; clear: right; margin: 0px; padding: 0px; }
 
@@ -425,6 +425,11 @@ Guest Info
 
 .mm_text_cancellation { float: left; clear: both; }
 
+.mm_text_info_cancellation {
+     position: relative; padding: 0px 10px; color: #fff; 
+}
+
+.mm_roomrate_content_canellation { position: relative; top: 0px; left: 0px; padding: 10px 10px; margin: 0px; font-weight: 300; }
 
 .mm_footer { font-size: 11px; font-family: Mama Shelter; margin: 10px; float: left; }
 
@@ -436,9 +441,5 @@ Guest Info
 .mm_divider { padding: 0px 7px 0px 5px; font-weight: 300; }
 .mm_foter_option_item { position: absolute; top: 0px; left: 18px; font-weight: 300; }
 .mm_foter_option_item:hover { font-weight: 600; }
-
-
-
-
 
 .mm_footer li { float: left; list-style-type: none; }
