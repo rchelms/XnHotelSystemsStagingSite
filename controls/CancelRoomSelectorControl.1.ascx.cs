@@ -174,6 +174,16 @@ public partial class CancelRoomSelectorControl : System.Web.UI.UserControl
             lblDepartureDateText.Text = _BookingReadSegments[0].DepartureDate.ToString("dddd, dd MMMM yyyy");
         }
 
+        btnCancelBooking.Enabled = false;
+        foreach (var bookingReadSegment in BookingReadSegments)
+        {
+            if (!bookingReadSegment.CancelPolicy.NonRefundable)
+            {
+                btnCancelBooking.Enabled = true;
+                break;
+            }
+        }
+
         for (int i = 0; i < lCancelRoomSelectorItemControls.Count; i++)
             lCancelRoomSelectorItemControls[i].RenderUserControl();
 
@@ -218,11 +228,8 @@ public partial class CancelRoomSelectorControl : System.Web.UI.UserControl
 
         for (int i = 0; i < lCancelRoomSelectorItemControls.Count; i++)
         {
-            if (lCancelRoomSelectorItemControls[i].Selected)
-            {
-                lConfirmationNumberSelections.Add(lCancelRoomSelectorItemControls[i].ConfirmationNumber);
-            }
-
+            if (lCancelRoomSelectorItemControls[i].Selected && !lCancelRoomSelectorItemControls[i].CancelPolicy.NonRefundable)
+               lConfirmationNumberSelections.Add(lCancelRoomSelectorItemControls[i].ConfirmationNumber);
         }
 
         return;

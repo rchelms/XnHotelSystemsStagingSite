@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -136,7 +136,7 @@
     <value>Find Rates</value>
   </data>
   <data name="ChildrenInfo" xml:space="preserve">
-    <value>Child(ren)</value>
+    <value>Children (3-12 years)</value>
   </data>
   <data name="ddlMonthApr.Text" xml:space="preserve">
     <value>Apr</value>

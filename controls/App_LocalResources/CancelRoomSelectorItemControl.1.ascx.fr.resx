@@ -121,7 +121,7 @@
     <value>Adulte(s)</value>
   </data>
   <data name="ChildrenInfo" xml:space="preserve">
-    <value>Enfant(s)</value>
+    <value>Enfant(s) (3-12 ans)</value>
   </data>
   <data name="lblCancelPolicyTitle.Text" xml:space="preserve">
     <value>Politique d'Annulation:</value>
@@ -164,5 +164,8 @@
   </data>
   <data name="lblDescriptionButton.Text" xml:space="preserve">
     <value>Description</value>
+  </data>
+  <data name="NonCancelableRoom" xml:space="preserve">
+    <value>(Tarif non annulable, contactez le Mama Shelter pour plus d'informations)</value>
   </data>
 </root>

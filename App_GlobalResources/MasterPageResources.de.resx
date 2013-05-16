@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Cancellations" xml:space="preserve">
-    <value>Stornierungen</value>
+    <value>Buchung Annulieren</value>
   </data>
   <data name="Copyright" xml:space="preserve">
     <value>2012 Mama Shelter</value>
@@ -157,7 +157,7 @@
     <value>Jobs</value>
   </data>
   <data name="ContactUs" xml:space="preserve">
-    <value>Kontakt</value>
+    <value>Kontakte</value>
   </data>
   <data name="Location" xml:space="preserve">
     <value>Lage</value>
@@ -210,10 +210,10 @@
   <data name="MainMenu4" xml:space="preserve">
     <value>FAQ</value>
   </data>
-  <data name="MainMenu5" xml:space="preserve">
+  <data name="MainMenu8" xml:space="preserve">
     <value>Newsletter</value>
   </data>
-  <data name="MainMenu6" xml:space="preserve">
+  <data name="MainMenu5" xml:space="preserve">
     <value>Presse</value>
   </data>
   <data name="Book" xml:space="preserve">
@@ -222,17 +222,17 @@
   <data name="MamaSays" xml:space="preserve">
     <value>Mama says</value>
   </data>
-  <data name="MainMenu7" xml:space="preserve">
+  <data name="MainMenu6" xml:space="preserve">
     <value>News</value>
   </data>
   <data name="ARoom" xml:space="preserve">
     <value>ein Zimmer</value>
   </data>
   <data name="MainMenu1PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/de/kontakt/</value>
+    <value>http://www.mamashelter.com/de/kontakte/</value>
   </data>
   <data name="MainMenu2PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/de/14/</value>
+    <value>http://www.mamashelter.com/de/jobs/</value>
   </data>
   <data name="MainMenu3PopUpUrl" xml:space="preserve">
     <value> http://www.mamashelter.com/de/rechtliches/</value>
@@ -240,19 +240,19 @@
   <data name="MainMenu4PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/de/faq/</value>
   </data>
-  <data name="MainMenu5PopUpUrl" xml:space="preserve">
-    <value> http://www.mamashelter.com/de/17/</value>
+  <data name="MainMenu8PopUpUrl" xml:space="preserve">
+    <value>http://www.mamashelter.com/de/newsletter/</value>
   </data>
-  <data name="MainMenu6PopUpUrl" xml:space="preserve">
+  <data name="MainMenu5PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/de/presse/</value>
   </data>
-  <data name="MainMenu7PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/de/19/</value>
+  <data name="MainMenu6PopUpUrl" xml:space="preserve">
+    <value>http://www.mamashelter.com/de/news/</value>
   </data>
-  <data name="MainMenu8" xml:space="preserve">
+  <data name="MainMenu9" xml:space="preserve">
     <value>Seminare</value>
   </data>
-  <data name="MainMenu8PopUpUrl" xml:space="preserve">
+  <data name="MainMenu9PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/de/seminare/#switch_locale</value>
   </data>
   <data name="MainManu8PopUpUrl" xml:space="preserve">

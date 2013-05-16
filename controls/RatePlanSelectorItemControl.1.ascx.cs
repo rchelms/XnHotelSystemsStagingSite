@@ -227,6 +227,8 @@ public partial class RatePlanSelectorItemControl : System.Web.UI.UserControl
             panRoomRatePlan.CssClass = "mm_roomrate_content mm_text_edit";
             lblTotalStayRateText.CssClass = lblTotalStayRateText.CssClass + " mm_roomrate_price_edit";
 
+            lblRoomTypeText.Visible = false;
+
             panButtonEdit.Visible = false;
             string scriptToApplySpecialStyleForTouchDevice = string.Format("applyStyleForTouchDevice(\"{0}\");", "mm_roomrate_wrapper_button_select");
             ScriptManager.RegisterStartupScript(Page, Page.GetType(), "StyleForTouchDevice_RoomRate_Select", scriptToApplySpecialStyleForTouchDevice, true);
@@ -348,5 +350,4 @@ public partial class RatePlanSelectorItemControl : System.Web.UI.UserControl
     {
         return string.Format("<span class=\"mm_rate_plan_currency_symbol\">{0}</span>{1}",WebconfigHelper.GetCurrencyCodeString(currencyCode), value.ToString("F0"));
     }
-
 }

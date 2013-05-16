@@ -1,6 +1,6 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeFile="CancelAddOnPackageItemControl.1.ascx.cs"
     Inherits="CancelAddOnPackageItemControl" %>
-<asp:Panel ID="panCancelAddOnPackageItem" CssClass="mm_room_rate_content mm_text_info"
+<asp:Panel ID="panCancelAddOnPackageItem" CssClass="mm_room_rate_content mm_text_info mm_cancel_text_info"
     runat="server">
     <asp:Label ID="lblPackageNameText" runat="server" Text="" CssClass="mm_text_x_strong" />
     <asp:Label ID="lblTotalPackagePrice" runat="server" Text="" CssClass="mm_room_rate_price" />

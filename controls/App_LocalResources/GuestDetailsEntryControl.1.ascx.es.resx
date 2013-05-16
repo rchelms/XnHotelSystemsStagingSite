@@ -379,6 +379,9 @@
     <value>reserva</value>
   </data>
   <data name="lblSpecialInstructions1.Text" xml:space="preserve">
-    <value>(tenga en cuenta que son previa petición solo)</value>
+    <value>(tenga en cuenta que son previa petición solo. Consulta las páginas "Servicios" o "FAQ" para obtener más informaciónes)</value>
+  </data>
+  <data name="lblHelpInfoText.Text" xml:space="preserve">
+    <value>What is it?</value>
   </data>
 </root>

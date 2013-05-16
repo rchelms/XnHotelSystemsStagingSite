@@ -121,7 +121,7 @@
     <value>Yetişkin(ler)</value>
   </data>
   <data name="ChildrenInfo" xml:space="preserve">
-    <value>Çocuk(lar)</value>
+    <value>Birden fazla çocuk (3-12 Yaş)</value>
   </data>
   <data name="lblCancelPolicyTitle.Text" xml:space="preserve">
     <value>İptal koşulları</value>

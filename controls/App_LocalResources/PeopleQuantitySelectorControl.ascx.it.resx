@@ -127,10 +127,10 @@
     <value>Adulti</value>
   </data>
   <data name="Child" xml:space="preserve">
-    <value>Bambino</value>
+    <value>Bambino (3-12 anni)</value>
   </data>
   <data name="Children" xml:space="preserve">
-    <value>Bambini</value>
+    <value>Bambini (3-12 anni)</value>
   </data>
   <data name="summaryInfo" xml:space="preserve">
     <value>Camera</value>

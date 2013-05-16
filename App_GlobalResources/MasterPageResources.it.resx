@@ -210,10 +210,10 @@
   <data name="MainMenu4" xml:space="preserve">
     <value>FAQ</value>
   </data>
-  <data name="MainMenu5" xml:space="preserve">
+  <data name="MainMenu8" xml:space="preserve">
     <value>Bollettino Informativo</value>
   </data>
-  <data name="MainMenu6" xml:space="preserve">
+  <data name="MainMenu5" xml:space="preserve">
     <value>Stampa</value>
   </data>
   <data name="Book" xml:space="preserve">
@@ -222,7 +222,7 @@
   <data name="MamaSays" xml:space="preserve">
     <value>Mama says</value>
   </data>
-  <data name="MainMenu7" xml:space="preserve">
+  <data name="MainMenu6" xml:space="preserve">
     <value>Notizie</value>
   </data>
   <data name="ARoom" xml:space="preserve">
@@ -240,22 +240,19 @@
   <data name="MainMenu4PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/it/faq/#switch_locale</value>
   </data>
-  <data name="MainMenu5PopUpUrl" xml:space="preserve">
+  <data name="MainMenu8PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/it/bollettino-informativo/#switch_locale</value>
   </data>
-  <data name="MainMenu6PopUpUrl" xml:space="preserve">
+  <data name="MainMenu5PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/it/stampa/#switch_locale</value>
   </data>
-  <data name="MainMenu7PopUpUrl" xml:space="preserve">
+  <data name="MainMenu6PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/it/notizie/#switch_locale</value>
   </data>
-  <data name="MainMenu8" xml:space="preserve">
+  <data name="MainMenu9" xml:space="preserve">
     <value>Seminari</value>
   </data>
-  <data name="MainMenu8PopUpUrl" xml:space="preserve">
+  <data name="MainMenu9PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/it/seminari/#switch_locale</value>
-  </data>
-  <data name="MainManu8PopUpUrl" xml:space="preserve">
-    <value />
   </data>
 </root>

@@ -292,7 +292,7 @@
     <value>Required deposit is {deposit_amount} {deposit_currency}. </value>
   </data>
   <data name="DepositPolicyNone" xml:space="preserve">
-    <value>A non refundable deposit at the time of booking is required for this rate</value>
+    <value>No deposit is required to book this rate. </value>
   </data>
   <data name="DepositPolicyNonrefundable" xml:space="preserve">
     <value>This rate cannot be refunded, cancelled, changed or transferred. In the event that the customer fails to arrive at the hotel, the booked room is released and the prepaid amount will not be refunded. </value>

@@ -142,13 +142,13 @@
     <value>Günlük tarifeler</value>
   </data>
   <data name="lbViewPolicies.Text" xml:space="preserve">
-    <value>Politikalar</value>
+    <value>Kurallar</value>
   </data>
   <data name="lbViewPolicies.ToolTip" xml:space="preserve">
     <value>Teminat, iptal ve ön ödeme politikalarına bakın</value>
   </data>
   <data name="lbViewRates.Text" xml:space="preserve">
-    <value>Tarife hakkında bilgi</value>
+    <value>Tarife bilgi</value>
   </data>
   <data name="lbViewRates.ToolTip" xml:space="preserve">
     <value>Her gece için tarifelere bakın</value>
@@ -169,10 +169,10 @@
     <value>Kapsam</value>
   </data>
   <data name="btnSelect.Text" xml:space="preserve">
-    <value>Ekleyin</value>
+    <value>Seçiniz</value>
   </data>
   <data name="lblPhotosButton.Text" xml:space="preserve">
-    <value>Fotoğraflar</value>
+    <value>Foto</value>
   </data>
   <data name="lblDescriptionButton.Text" xml:space="preserve">
     <value>Açıklama</value>

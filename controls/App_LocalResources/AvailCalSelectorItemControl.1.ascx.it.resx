@@ -121,7 +121,7 @@
     <value>Adulto/i</value>
   </data>
   <data name="ChildrenInfo" xml:space="preserve">
-    <value>Bambino/i</value>
+    <value>Bambino/i (3-12 anni)</value>
   </data>
   <data name="RatesFrom" xml:space="preserve">
     <value>A partire da</value>

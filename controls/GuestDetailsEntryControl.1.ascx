@@ -623,8 +623,9 @@
                             <asp:Panel ID="Panel31" CssClass="mm_field_set_label1" runat="server">
                                 <asp:Label ID="lblSpecialInstructions1" runat="server" Text="" meta:resourcekey="lblSpecialInstructions1" />
                             </asp:Panel>
-                            <asp:Panel ID="Panel26" CssClass="mm_field_set_user_entry clearboth" runat="server">
-                                <asp:TextBox ID="tbSpecialInstructions" runat="server" TextMode="MultiLine" />
+                            <asp:Panel ID="Panel26" CssClass="mm_field_set_user_entry3 clearboth" runat="server">
+                                <asp:TextBox ID="tbSpecialInstructions" runat="server" TextMode="SingleLine" MaxLength="150"/>
+                               
                             </asp:Panel>
                         </asp:Panel>
                         <asp:Panel ID="Panel27" runat="server" Visible="false">

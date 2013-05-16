@@ -53,6 +53,7 @@ public partial class Ogone_SubmitPayment : System.Web.UI.Page
             DateTime dtPaymentCardExpirationDate = WBSPGHelper.ExpirationDate(objHotelPaymentRQ.PaymentCard.PaymentCardExpireDate);
 
             objPayRqData.enumCardType = WBSPGHelper.OgoneCardType(objHotelPaymentRQ.PaymentCard.PaymentCardType);
+            objPayRqData.strCardHolderName = objHotelPaymentRQ.PaymentCard.PaymentCardHolder;
             objPayRqData.strCardNumber = objHotelPaymentRQ.PaymentCard.PaymentCardNumber;
             objPayRqData.intCardExpirationMonth = dtPaymentCardExpirationDate.Month;
             objPayRqData.intCardExpirationYear = dtPaymentCardExpirationDate.Year;

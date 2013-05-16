@@ -121,7 +121,7 @@
     <value>Odalar</value>
   </data>
   <data name="summaryInfoRoomUnit" xml:space="preserve">
-    <value>Oda</value>
+    <value>ODA</value>
   </data>
   <data name="lblEditInstruction.Text" xml:space="preserve">
     <value>Kaç oda rezerve etmek istiyorsunuz?</value>
@@ -130,7 +130,7 @@
     <value>Promosyon kodunuz var mı?</value>
   </data>
   <data name="summaryInfo" xml:space="preserve">
-    <value>İsteyebilirsiniz</value>
+    <value>İSTİYORSUNUZ</value>
   </data>
   <data name="lblPromotionCodeInfo" xml:space="preserve">
     <value>Promosyon Kodunuz:</value>

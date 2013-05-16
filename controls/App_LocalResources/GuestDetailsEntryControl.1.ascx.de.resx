@@ -379,6 +379,9 @@
     <value />
   </data>
   <data name="lblSpecialInstructions1.Text" xml:space="preserve">
-    <value>( beachten Sie, dass diese nur auf Anfrage möglich sind)</value>
+    <value>(beachten Sie, dass diese nur auf Anfrage möglich sind. Für weitere Informationen konsultieren Sie die "FAQ" und "Serviceleistungen" Seite)</value>
+  </data>
+  <data name="lblHelpInfoText.Text" xml:space="preserve">
+    <value />
   </data>
 </root>

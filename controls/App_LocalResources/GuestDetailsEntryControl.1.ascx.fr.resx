@@ -298,7 +298,7 @@
     <value>Merci de relire vos informations et cliquer sur "confirmer la réservation" pour terminer votre réservation.</value>
   </data>
   <data name="lblConfirmBookingInstructions2.Text" xml:space="preserve">
-    <value>L'envoie de confirmation peut prendre plus de 30 secondes. Merci de ne cliquer sur " confirmer la reservation" qu'une fois que cela est fait.</value>
+    <value>L'envoi de confirmation peut prendre plus de 30 secondes. Merci de ne cliquer sur " confirmer la reservation" qu'une fois que cela est fait.</value>
   </data>
   <data name="lblCrib.Text" xml:space="preserve">
     <value>Lit bébé</value>
@@ -379,9 +379,9 @@
     <value />
   </data>
   <data name="lblHelpInfoText.Text" xml:space="preserve">
-    <value>What is it?</value>
+    <value />
   </data>
   <data name="lblSpecialInstructions1.Text" xml:space="preserve">
-    <value>( merci de noter que ces demandes ne sont pas garanties)</value>
+    <value>(merci de noter que ces demandes ne sont pas garanties. Pour plus d'informations consultez les pages "FAQ" et "Services")</value>
   </data>
 </root>

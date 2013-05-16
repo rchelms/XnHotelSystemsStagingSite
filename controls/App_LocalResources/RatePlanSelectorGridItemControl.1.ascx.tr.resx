@@ -166,7 +166,7 @@
     <value>Tarife açıklamasına bakın</value>
   </data>
   <data name="lbViewPolicies.Text" xml:space="preserve">
-    <value>Politika </value>
+    <value>Kurallar</value>
   </data>
   <data name="lbViewPolicies.ToolTip" xml:space="preserve">
     <value>Teminat, iptal ve ön ödeme politikalarına bakın</value>

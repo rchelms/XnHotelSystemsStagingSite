@@ -121,7 +121,7 @@
     <value>Person(en)</value>
   </data>
   <data name="ChildrenInfo" xml:space="preserve">
-    <value>Kind(er)</value>
+    <value>Kind(er) (3-12 Jahre)</value>
   </data>
   <data name="lblCancelPolicyTitle.Text" xml:space="preserve">
     <value>Stornierungsbedingungen:</value>
@@ -164,5 +164,8 @@
   </data>
   <data name="lblDescriptionButton.Text" xml:space="preserve">
     <value>Beschreibung</value>
+  </data>
+  <data name="NonCancelableRoom" xml:space="preserve">
+    <value>(Non-Cancellable Rate - contact Hotel for more info)</value>
   </data>
 </root>

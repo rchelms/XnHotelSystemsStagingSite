@@ -121,16 +121,16 @@
     <value>Yetişkin</value>
   </data>
   <data name="AdultForQuestion" xml:space="preserve">
-    <value>Yetişkin(ler)</value>
+    <value>Yetişkin</value>
   </data>
   <data name="Adults" xml:space="preserve">
-    <value>Yetişkinler</value>
+    <value>Yetişkin</value>
   </data>
   <data name="Child" xml:space="preserve">
-    <value>Çocuk</value>
+    <value>Bir çocuk (3-12 Yaş)</value>
   </data>
   <data name="Children" xml:space="preserve">
-    <value>Çocuklar</value>
+    <value>Birden fazla çocuk (3-12 Yaş)</value>
   </data>
   <data name="summaryInfo" xml:space="preserve">
     <value>Oda </value>

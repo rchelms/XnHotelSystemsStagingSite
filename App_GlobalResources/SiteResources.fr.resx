@@ -220,7 +220,7 @@
     <value>Dépôt de garantie requis {deposit_amount} {deposit_currency}.</value>
   </data>
   <data name="DepositPolicyNone" xml:space="preserve">
-    <value>Un prépaiement non remboursable au moment de la réservation est nécessaire pour ce tarif</value>
+    <value>Le Paiement s'effectue à votre arrivée</value>
   </data>
   <data name="DepositPolicyNonrefundable" xml:space="preserve">
     <value>Ce tarif est non remboursable, non annulable, non modifiable, non transférable.  La non présentation du Client   entraine la liberation de la réservation et  le montant prépayé  ne fera l'objet d'aucun remboursement.</value>

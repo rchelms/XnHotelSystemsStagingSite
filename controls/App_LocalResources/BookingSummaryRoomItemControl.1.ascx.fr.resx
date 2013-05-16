@@ -121,7 +121,7 @@
     <value>Adulte(s)</value>
   </data>
   <data name="ChildrenInfo" xml:space="preserve">
-    <value>Enfant(s)</value>
+    <value>Enfant(s) (3-12 ans)</value>
   </data>
   <data name="lblCancelPolicyTitle.Text" xml:space="preserve">
     <value>Conditions d'Annulation:</value>

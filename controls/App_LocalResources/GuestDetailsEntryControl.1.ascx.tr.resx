@@ -160,10 +160,10 @@
     <value>Eylül</value>
   </data>
   <data name="ddlNamePrefixDr.Text" xml:space="preserve">
-    <value>Dr</value>
+    <value>Dr.</value>
   </data>
   <data name="ddlNamePrefixDr.Value" xml:space="preserve">
-    <value>Dr</value>
+    <value>Dr.</value>
   </data>
   <data name="ddlNamePrefixMiss.Text" xml:space="preserve">
     <value>Bayan</value>
@@ -190,10 +190,10 @@
     <value>Bayan</value>
   </data>
   <data name="ddlNamePrefixProf.Text" xml:space="preserve">
-    <value>Prof</value>
+    <value>Prof.</value>
   </data>
   <data name="ddlNamePrefixProf.Value" xml:space="preserve">
-    <value>Prof</value>
+    <value>Prof.</value>
   </data>
   <data name="ddlTravelPurposeBusiness.Text" xml:space="preserve">
     <value>İş</value>
@@ -259,7 +259,7 @@
     <value>Ad</value>
   </data>
   <data name="lblLastName.Text" xml:space="preserve">
-    <value>Soyadı</value>
+    <value>Soyad</value>
   </data>
   <data name="lblNamePrefix.Text" xml:space="preserve">
     <value>Unvan *</value>
@@ -352,6 +352,6 @@
     <value>What is it?</value>
   </data>
   <data name="lblSpecialInstructions1.Text" xml:space="preserve">
-    <value>(mevcut olması halinde)</value>
+    <value>(Lütfen bunların sadece talep üzerine olduğunu unutmayınız. Daha fazla bilgi için "SSS" ve "Hizmetler" sayfalarını kontrol ediniz)</value>
   </data>
 </root>

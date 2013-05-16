@@ -1069,6 +1069,7 @@ public partial class MamaShelterBooking : XnGR_WBS_Page
             if (roomRates.Count() <= 0)
                continue;
 
+
             foreach (HotelAvailRoomRate roomRate in roomRates)
             {
                var localRoomRate = roomRate;
@@ -1087,6 +1088,17 @@ public partial class MamaShelterBooking : XnGR_WBS_Page
 
             if (!bRatesAvailable)
                continue;
+
+            HtmlGenericControl rtPanelWrapper = new HtmlGenericControl("div");
+            rtPanelWrapper.Attributes.Add("class", "mm_roomrate_info mm_background_info");
+            HtmlGenericControl rtPanel = new HtmlGenericControl("div");
+            rtPanel.Attributes.Add("class", "mm_roomrate_content mm_text_info");
+            HtmlGenericControl rtName = new HtmlGenericControl("span");
+            rtName.Attributes.Add("class", "mm_text_x_strong");
+            rtName.InnerText = roomType.Name;
+            rtPanelWrapper.Controls.Add(rtPanel);
+            rtPanel.Controls.Add(rtName);
+            ucRoomDetailSelectorControl.AddRoomTypeControl(rtPanelWrapper);
 
             foreach (HotelAvailRoomRate roomRate in roomRates)
             {

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -382,6 +382,6 @@
     <value>What is it?</value>
   </data>
   <data name="lblSpecialInstructions1.Text" xml:space="preserve">
-    <value>(please note these are on request only)</value>
+    <value>(please note these are on request only. Check "FAQ" and "Services" pages for more information)</value>
   </data>
 </root>

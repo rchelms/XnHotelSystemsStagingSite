@@ -126,4 +126,7 @@
   <data name="lblPaynowText.Text" xml:space="preserve">
     <value>Reservar</value>
   </data>
+  <data name="lblPaynowText1.Text" xml:space="preserve">
+    <value />
+  </data>
 </root>

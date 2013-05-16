@@ -70,6 +70,44 @@ public partial class SelectCancelRoom : XnGR_WBS_Page
          if (_HotelBookingReadSegments == null)
          {
             _HotelBookingReadSegments = WbsUiHelper.GetValidatedBookings(CancelDetailsEntryInfo);
+
+            ////**** DUMB OBJECT *****
+            //_HotelBookingReadSegments = new HotelBookingReadSegment[]{
+            //    new HotelBookingReadSegment{
+            //        ArrivalDate = DateTime.Now.AddDays(1)
+            //        , DepartureDate= DateTime.Now.AddDays(2)
+            //        , NumRooms = 1
+            //        , NumAdults = 1
+            //        , NumChildren = 1
+            //        , RoomType = new HotelBookingRoomType{Code = "MamaLuxe", Name="Mama Luxe", ShortDescription="Mama Luxe ShortDesc"}
+            //        , RatePlan = new HotelBookingRatePlan{Code = "BAR", Name="Best Available Rate", ShortDescription="BAR ShortDesc"}
+            //        , CancelPolicy = new HotelBookingCancelPolicy{NonRefundable = true}
+            //        , HotelCode = "XN00049"
+            //        , ConfirmationNumber = "TEST12345A"
+            //        , MasterConfirmationNumber = "TEST12345"
+            //        , Rates = new HotelBookingRate[]{new HotelBookingRate{Amount=189, CurrencyCode="USD", NumNights=1, StartDate = DateTime.Now.AddDays(1)}}
+            //        , PackageRates = new HotelBookingPackageRate[]{new HotelBookingPackageRate{Code="ADO", Name="Addon package", CurrencyCode="USD", Price=79m, PriceType=PackagePriceType.PerPersonPerNight, Quantity=1}} //Addon
+
+            //    },
+
+            //    new HotelBookingReadSegment{
+            //        ArrivalDate = DateTime.Now.AddDays(1)
+            //        , DepartureDate= DateTime.Now.AddDays(2)
+            //        , NumRooms = 2
+            //        , NumAdults = 1
+            //        , NumChildren = 1
+            //        , RoomType = new HotelBookingRoomType{Code = "MamaLuxe", Name="Mama Luxe", ShortDescription="Mama Luxe ShortDesc"}
+            //        , RatePlan = new HotelBookingRatePlan{Code = "FXR", Name="Flexi Rate", ShortDescription="FXR ShortDesc"}
+            //        , CancelPolicy = new HotelBookingCancelPolicy{}
+            //        , HotelCode = "XN00049"
+            //        , ConfirmationNumber = "TEST12345B"
+            //        , MasterConfirmationNumber = "TEST12345"
+            //        , Rates = new HotelBookingRate[]{new HotelBookingRate{Amount=139, CurrencyCode="USD", NumNights=1, StartDate = DateTime.Now.AddDays(1)}}
+            //        , PackageRates = new HotelBookingPackageRate[]{ } //Addon
+
+            //    }
+            //};
+            //// ***********************
          }
          return _HotelBookingReadSegments;
       }
@@ -176,6 +214,7 @@ public partial class SelectCancelRoom : XnGR_WBS_Page
 
    private void BeginResumeAsyncDataCapture()
    {
+     
       if (bAsyncCancelBooking)
       {
          wbsAPIRouterData = new WBSAPIRouterData();

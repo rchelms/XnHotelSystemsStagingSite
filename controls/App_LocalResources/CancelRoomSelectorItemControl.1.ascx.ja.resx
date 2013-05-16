@@ -165,4 +165,7 @@
   <data name="lblDescriptionButton.Text" xml:space="preserve">
     <value>記述</value>
   </data>
+  <data name="NonCancelableRoom" xml:space="preserve">
+    <value>(Non-Cancellable Rate - contact Hotel for more info)</value>
+  </data>
 </root>

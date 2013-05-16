@@ -68,6 +68,10 @@ public partial class RoomDetailSelectorControl : System.Web.UI.UserControl
         control.ShowRoomPhotoSelected += new RatePlanSelectorItemControl.ShowRoomPhotoEventHandler(control_ShowRoomPhotoSelected);
     }
 
+    public void AddRoomTypeControl(System.Web.UI.Control control) {
+        phRoomTypeSelectorControl.Controls.Add(control);
+    }
+
     public void AddRatePlanSelectorItem(RatePlanSelectorItemControl control)
     {
         phRoomTypeSelectorControl.Controls.Add(control);
@@ -155,7 +159,10 @@ public partial class RoomDetailSelectorControl : System.Web.UI.UserControl
 
         //Render room rate controls
         for (int i = 0; i < phRoomTypeSelectorControl.Controls.Count; i++)
-            ((RatePlanSelectorItemControl)phRoomTypeSelectorControl.Controls[i]).RenderUserControl();
+        {
+            if (phRoomTypeSelectorControl.Controls[i] is RatePlanSelectorItemControl)
+                ((RatePlanSelectorItemControl)phRoomTypeSelectorControl.Controls[i]).RenderUserControl();
+        }
 
         //Render selected extra controls
         for (int i = 0; i < phSelectedRoomExtras.Controls.Count; i++)

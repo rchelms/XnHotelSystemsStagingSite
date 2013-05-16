@@ -121,7 +121,6 @@ public partial class CheckCancelDetails : XnGR_WBS_Page
             bAsyncReadHotelBooking = false;
             this.BeginResumeAsyncDataCapture();
         }
-
         else
         {
             // End async page operation
@@ -167,6 +166,12 @@ public partial class CheckCancelDetails : XnGR_WBS_Page
         {
             CancelDetailsEntryInfo objCancelDetailsEntryInfo = (CancelDetailsEntryInfo)Session["CancelDetailsEntryInfo"];
             this.ValidateCancellationRequest(objCancelDetailsEntryInfo);
+
+            //**** DUMB OBJECT *****
+            //var objCancelDetailsEntryInfo = new CancelDetailsEntryInfo { ConfirmationNumber = "TEST12345"
+            //    , HotelCode = "XN00049", GuestLastName = "Fisher"
+            //    , SelectedConfirmationNumbersToCancel = new string[] { "" } };
+            // ***********************
 
             if (this.IsPageError)
             {

@@ -25,6 +25,7 @@
   src: url(fonts/mamasheltercap.eot);
   src: url(fonts/mamasheltercap.eot?#iefix) format("embedded-opentype"), url(fonts/mamasheltercap.woff) format("woff")
 }
+
 @font-face {
   font-family: "Mama Shelter";
   font-weight: 600;
@@ -84,6 +85,10 @@ body { font-family: "Mama Shelter"; font-size: 12px;-webkit-font-smoothing: anti
 .mm_content_section { font-family: "Mama Shelter"; font-size: 12px; font-weight: 600; color: #626262; text-transform: uppercase; width: 462px; }
 
 .mm_main_step { clear: both; padding: 0px; margin: 0px; width: inherit; }
+
+.img_res { margin-top:20px;}
+
+.img_text {margin-top: 20px;}
 
 .mm_step { clear: both; padding: 0px; margin: 0px; position: relative; height: 32px; }
 
@@ -343,8 +348,8 @@ Guest Info
 
 #xngr_wbs_content .mm_field_set_label { float: left; margin: 0px; padding: 0px; width: 152px; text-decoration: none;}
 #xngr_wbs_content .mm_field_set_label span { margin: 0px; padding: 0px; }
-#xngr_wbs_content .mm_field_set_label1 { float: right; margin: 0px; padding: 0px; width: 290px;}
-#xngr_wbs_content .mm_field_set_label1 span { margin: 0px 0px 0px 0px; padding: 0px; }
+#xngr_wbs_content .mm_field_set_label1 { float: right; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; width: 290px; text-decoration: none;}
+#xngr_wbs_content .mm_field_set_label1 span { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 
 #xngr_wbs_content .mm_field_set_user_entry { float: left; clear: right; margin: 0px; padding: 0px; }
 
@@ -372,7 +377,7 @@ Guest Info
 #xngr_wbs_content .clearboth { clear: both; }
 #xngr_wbs_content .mm_field_set_user_entry1 input[type="text"].short { width: 93px; }
 #xngr_wbs_content .mm_field_set_user_entry1 input[type="password"] { border: 1px solid #999; margin: 0px; padding: 1px; width: 200px; font-family: Arial, sans-serif; font-size: 0.75em; }
-#xngr_wbs_content .mm_field_set_user_entry1 input[type="text"].time_set { width: 20px; }
+#xngr_wbs_content .mm_field_set_user_entry1 input[type="text"].time_set { float: right; width: 20px; }
 #xngr_wbs_content .mm_field_set_user_entry1 input[type="radio"].time_set { margin: 0px; }
 #xngr_wbs_content .mm_field_set_user_entry1 input[type="checkbox"] { border: 1px solid #999; }
 #xngr_wbs_content .mm_field_set_user_entry1 textarea { background-color: #EBEBEB; clear: both; border: 0 none; border-radius: 4px 4px 4px 4px; color: #484848; font-family: Mama Shelter; font-size: 12px; font-weight: 300; }
@@ -394,6 +399,21 @@ Guest Info
 #xngr_wbs_content .mm_field_set_user_entry2 textarea { background-color: #EBEBEB; clear: both; border: 0 none; border-radius: 4px 4px 4px 4px; color: #484848; font-family: Mama Shelter; font-size: 12px; font-weight: 300; }
 #xngr_wbs_content .mm_field_set_user_entry2 a { text-decoration: underline; color: #626262; }
 #xngr_wbs_content .mm_field_set_user_entry2 a:hover { color: #626262; }
+
+#xngr_wbs_content .mm_field_set_user_entry3 { float: left; clear: right; margin: 0px; padding: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry3 span { margin: 0px; padding: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry3 select { border: 1px solid #999; border-radius: 4px 4px 4px 4px; margin: 0px 0px 5px 0px; padding: 0px; width: 200px; }
+#xngr_wbs_content .mm_field_set_user_entry3 select.short { width: 100px; }
+#xngr_wbs_content .mm_field_set_user_entry3 input[type="text"] {margin: 5px 0px 5px 155px; background-color: #fff; border: 0 none; color: #484848; font-family: Mama Shelter; font-size: 12px; font-weight: 300; width: 290px; height:30px; }
+#xngr_wbs_content .clearboth { clear: both; }
+#xngr_wbs_content .mm_field_set_user_entry3 input[type="text"].short { width: 103px; }
+#xngr_wbs_content .mm_field_set_user_entry3 input[type="password"] { border: 1px solid #999; margin: 0px; padding: 1px; width: 200px; font-family: Arial, sans-serif; font-size: 0.75em; }
+#xngr_wbs_content .mm_field_set_user_entry3 input[type="text"].time_set { width: 20px; }
+#xngr_wbs_content .mm_field_set_user_entry3 input[type="radio"].time_set { margin: 0px; }
+#xngr_wbs_content .mm_field_set_user_entry3 input[type="checkbox"] { border: 1px solid #999; }
+#xngr_wbs_content .mm_field_set_user_entry3 textarea { background-color: #EBEBEB; clear: both; border: 0 none; border-radius: 4px 4px 4px 4px; color: #484848; font-family: Mama Shelter; font-size: 12px; font-weight: 300; }
+#xngr_wbs_content .mm_field_set_user_entry3 a { text-decoration: underline; color: #626262; }
+#xngr_wbs_content .mm_field_set_user_entry3 a:hover { color: #626262; }
 
 .mm_wrapper_confirm_button {font-family: Mama Shelter; text-transform: uppercase; font-size: 12px;  padding: 35px 0px 0px 0px; margin: 0px; background: url("images/sprites1.png") no-repeat; background-position: center; width: 452px; height: 94px; border: none;}
 
@@ -417,7 +437,14 @@ Guest Info
 
 .mm_button_locate_reservation { background: transparent; border: 0px; width: 100%; height: 100%; color: White; font-weight: 300; text-transform: none; font-family: Mama Shelter; text-align: center; vertical-align: middle; cursor: pointer; }
 
-.mm_checkbox_cancel_room { position: absolute; margin: 0px; padding: 0px; top: 5px; right: 10px; color: #EBEBEB; }
+.mm_checkbox_cancel_room { position: absolute; margin: 0px; padding: 0px; top: 5px; right: 10px; color: #EBEBEB; text-align:right;vertical-align:middle;}
+.mm_non_cancelable { top:1px; color:#B0B0B0;}
+.mm_text_non_cancellable {
+    position: absolute; margin: 0px; padding: 0px; bottom: 2px; right: 10px; color: #EBEBEB; text-align:right; font-size:0.8em; font-weight:300;
+}
+
+.mm_cancel_text_info { position:relative;
+}
 
 .mm_wrapper_confirm_cancel { margin-top: 5px; margin-right: 5px; float: right; clear: both; position: relative; width: 230px; height: 20px; border-radius: 4px; background-color: #626262; }
 
@@ -426,7 +453,7 @@ Guest Info
 .mm_text_cancellation { float: left; clear: both; }
 
 .mm_text_info_cancellation {
-     position: relative; padding: 0px 10px; color: #fff; 
+     position: relative; padding: 0px 10px; color: #fff;
 }
 
 .mm_roomrate_content_canellation { position: relative; top: 0px; left: 0px; padding: 10px 10px; margin: 0px; font-weight: 300; }

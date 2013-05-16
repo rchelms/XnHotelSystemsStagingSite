@@ -127,10 +127,10 @@
     <value>Adults</value>
   </data>
   <data name="Child" xml:space="preserve">
-    <value>Child</value>
+    <value>Child (3-12 years)</value>
   </data>
   <data name="Children" xml:space="preserve">
-    <value>Children</value>
+    <value>Children (3-12 years)</value>
   </data>
   <data name="EditInstruction" xml:space="preserve">
     <value>How many {0} are staying in room {1} ?</value>

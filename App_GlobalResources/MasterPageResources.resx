@@ -141,13 +141,13 @@
   <data name="MainMenu4" xml:space="preserve">
     <value>FAQ</value>
   </data>
-  <data name="MainMenu5" xml:space="preserve">
+  <data name="MainMenu8" xml:space="preserve">
     <value>Newsletter</value>
   </data>
-  <data name="MainMenu6" xml:space="preserve">
+  <data name="MainMenu5" xml:space="preserve">
     <value>Press</value>
   </data>
-  <data name="MainMenu7" xml:space="preserve">
+  <data name="MainMenu6" xml:space="preserve">
     <value>News</value>
   </data>
   <data name="MamaSays" xml:space="preserve">
@@ -186,13 +186,13 @@
   <data name="MainMenu4PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/en/faq/</value>
   </data>
-  <data name="MainMenu5PopUpUrl" xml:space="preserve">
+  <data name="MainMenu8PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/newsletter/</value>
   </data>
-  <data name="MainMenu6PopUpUrl" xml:space="preserve">
+  <data name="MainMenu5PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/press/</value>
   </data>
-  <data name="MainMenu7PopUpUrl" xml:space="preserve">
+  <data name="MainMenu6PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/news/</value>
   </data>
   <data name="Mama" xml:space="preserve">
@@ -249,13 +249,10 @@
   <data name="Casting" xml:space="preserve">
     <value>Jobs</value>
   </data>
-  <data name="MainMenu8" xml:space="preserve">
+  <data name="MainMenu9" xml:space="preserve">
     <value>Meetings</value>
   </data>
-  <data name="MainMenu8PopUpUrl" xml:space="preserve">
+  <data name="MainMenu9PopUpUrl" xml:space="preserve">
     <value>http://www.mamashelter.com/meetings/</value>
-  </data>
-  <data name="MainManu8PopUpUrl" xml:space="preserve">
-    <value />
   </data>
 </root>

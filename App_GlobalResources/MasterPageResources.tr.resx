@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Cancellations" xml:space="preserve">
-    <value>İptaller</value>
+    <value>rezervasyon iptal</value>
   </data>
   <data name="Copyright" xml:space="preserve">
     <value>2012 Mama Shelter</value>
@@ -196,64 +196,64 @@
     <value>http://www.thefork.com/aff.php?i=58&amp;uid=17589</value>
   </data>
   <data name="MainMenu1" xml:space="preserve">
-    <value>Bize ulaşın</value>
+    <value>İLETİŞİM</value>
   </data>
   <data name="MainMenu2" xml:space="preserve">
-    <value>İş fırsatları</value>
+    <value>IK</value>
   </data>
   <data name="MainMenu4" xml:space="preserve">
     <value>SSS</value>
   </data>
   <data name="Book" xml:space="preserve">
-    <value>Rezervasyonum</value>
+    <value>’TE YER </value>
   </data>
-  <data name="MainMenu7" xml:space="preserve">
-    <value>Güncel</value>
+  <data name="MainMenu6" xml:space="preserve">
+    <value>HABERLER</value>
   </data>
   <data name="Casting" xml:space="preserve">
     <value>İş fırsatları</value>
   </data>
   <data name="MainMenu3" xml:space="preserve">
-    <value>Legal</value>
+    <value>YASAL</value>
+  </data>
+  <data name="MainMenu8" xml:space="preserve">
+    <value>E-BÜLTEN</value>
   </data>
   <data name="MainMenu5" xml:space="preserve">
-    <value>Newsletter</value>
-  </data>
-  <data name="MainMenu6" xml:space="preserve">
     <value>basın</value>
   </data>
   <data name="MamaSays" xml:space="preserve">
     <value>Mama says</value>
   </data>
   <data name="ARoom" xml:space="preserve">
-    <value>Oda</value>
+    <value>Ayırtın</value>
   </data>
   <data name="MainMenu1PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/#switch_locale</value>
+    <value>http://www.mamashelter.com/tr/ileti%C5%9Fim/</value>
   </data>
   <data name="MainMenu2PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/#switch_locale</value>
+    <value>http://www.mamashelter.com/tr/ik/</value>
   </data>
   <data name="MainMenu3PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/#switch_locale</value>
+    <value>http://www.mamashelter.com/tr/yasal/</value>
   </data>
   <data name="MainMenu4PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/#switch_locale</value>
-  </data>
-  <data name="MainMenu5PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/#switch_locale</value>
-  </data>
-  <data name="MainMenu6PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/#switch_locale</value>
-  </data>
-  <data name="MainMenu7PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/#switch_locale</value>
-  </data>
-  <data name="MainMenu8" xml:space="preserve">
-    <value>Seminerler</value>
+    <value>http://www.mamashelter.com/tr/sss/</value>
   </data>
   <data name="MainMenu8PopUpUrl" xml:space="preserve">
-    <value>http://www.mamashelter.com/tr/seminerler/#switch_locale</value>
+    <value>http://www.mamashelter.com/tr/e-b%C3%BClten/</value>
+  </data>
+  <data name="MainMenu5PopUpUrl" xml:space="preserve">
+    <value>http://www.mamashelter.com/tr/basin/</value>
+  </data>
+  <data name="MainMenu6PopUpUrl" xml:space="preserve">
+    <value>http://www.mamashelter.com/tr/haberler/</value>
+  </data>
+  <data name="MainMenu9" xml:space="preserve">
+    <value>Seminerler</value>
+  </data>
+  <data name="MainMenu9PopUpUrl" xml:space="preserve">
+    <value>http://www.mamashelter.com/tr/seminerler/</value>
   </data>
   <data name="MainManu8PopUpUrl" xml:space="preserve">
     <value />

@@ -208,7 +208,7 @@
     <value>Termini e Condizioni</value>
   </data>
   <data name="lblAddress1.Text" xml:space="preserve">
-    <value>Indirizzo:</value>
+    <value>Indirizzo</value>
   </data>
   <data name="lblAddress2.Text" xml:space="preserve">
     <value />
@@ -247,10 +247,10 @@
     <value>Confermate l'E-mail</value>
   </data>
   <data name="lblCountry.Text" xml:space="preserve">
-    <value>Paese:</value>
+    <value>Paese</value>
   </data>
   <data name="lblFirstName.Text" xml:space="preserve">
-    <value>Cognome:</value>
+    <value>Cognome</value>
   </data>
   <data name="lblLastName.Text" xml:space="preserve">
     <value>Nome</value>
@@ -322,7 +322,7 @@
     <value>postmeridiane</value>
   </data>
   <data name="lblEmail.Text" xml:space="preserve">
-    <value>Email:</value>
+    <value>Email</value>
   </data>
   <data name="lblFltNumber.Text" xml:space="preserve">
     <value>Numero di volo</value>
@@ -382,6 +382,6 @@
     <value>What is it?</value>
   </data>
   <data name="lblSpecialInstructions1.Text" xml:space="preserve">
-    <value>(N.B. unicamente su richiesta)</value>
+    <value>(si noti che questi sono solo su richiesta. Controlla le pagine "FAQ" e "Service" per ulteriori informazioni)</value>
   </data>
 </root>

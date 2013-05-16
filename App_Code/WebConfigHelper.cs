@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Configuration;
+using System.Linq;
 
 /// <summary>
 /// Summary description for ConfigurationHelper
@@ -56,7 +58,7 @@ public static class WebconfigHelper
             return GetBoolValue(EnableChildrenByHotelCodeKey);
     }
 
-    public static string GetCurrencyCodeString (string currencyCode)
+    public static string GetCurrencyCodeString(string currencyCode)
     {
         if (!Constants.WebConfigKeys.CurrencySymbol.ContainsKey(currencyCode))
             return currencyCode;

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AdultsInfo" xml:space="preserve">
-    <value>Yetişkin(ler)</value>
+    <value>Yetişkin</value>
   </data>
   <data name="btnEditStayCriteria.Text" xml:space="preserve">
     <value>Rezervasyon seçeneklerinizi değiştirin</value>
@@ -130,7 +130,7 @@
     <value>Tarife bulun</value>
   </data>
   <data name="ChildrenInfo" xml:space="preserve">
-    <value>Çocuk(lar)</value>
+    <value>Birden fazla çocuk (3-12 Yaş)</value>
   </data>
   <data name="ddlMonthApr.Text" xml:space="preserve">
     <value>Nisan</value>
@@ -154,7 +154,7 @@
     <value>Haziran</value>
   </data>
   <data name="ddlMonthMar.Text" xml:space="preserve">
-    <value>Mart</value>
+    <value>Sal</value>
   </data>
   <data name="ddlMonthMay.Text" xml:space="preserve">
     <value>Mayıs</value>
@@ -172,28 +172,28 @@
     <value>../zapatec/zpcal/lang/calendar-en.js</value>
   </data>
   <data name="lbAdults1.Text" xml:space="preserve">
-    <value>Yetişkinler</value>
+    <value>Yetişkin</value>
   </data>
   <data name="lbAdults2.Text" xml:space="preserve">
-    <value>Yetişkinler</value>
+    <value>Yetişkin</value>
   </data>
   <data name="lbAdults3.Text" xml:space="preserve">
-    <value>Yetişkinler</value>
+    <value>Yetişkin</value>
   </data>
   <data name="lbAdults4.Text" xml:space="preserve">
-    <value>Yetişkinler</value>
+    <value>Yetişkin</value>
   </data>
   <data name="lbAdults5.Text" xml:space="preserve">
-    <value>Yetişkinler</value>
+    <value>Yetişkin</value>
   </data>
   <data name="lbAdults6.Text" xml:space="preserve">
-    <value>Yetişkinler</value>
+    <value>Yetişkin</value>
   </data>
   <data name="lbAdults7.Text" xml:space="preserve">
-    <value>Yetişkinler</value>
+    <value>Yetişkin</value>
   </data>
   <data name="lbAdults8.Text" xml:space="preserve">
-    <value>Yetişkinler</value>
+    <value>Yetişkin</value>
   </data>
   <data name="lbChildren1.Text" xml:space="preserve">
     <value>Çocuklar</value>
@@ -334,7 +334,7 @@
     <value>Nerede kalmak isterdiniz?</value>
   </data>
   <data name="lblStayCriteriaInfo.Text" xml:space="preserve">
-    <value>Buradasınız</value>
+    <value />
   </data>
   <data name="btnCloseEditStayCriteria.Text" xml:space="preserve">
     <value>Rezervasyon seçeneklerini kapatın</value>

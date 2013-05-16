@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AdultsInfo" xml:space="preserve">
-    <value>Yetişkin(ler)</value>
+    <value>Yetişkin</value>
   </data>
   <data name="ChildrenInfo" xml:space="preserve">
-    <value>Çocuk(lar)</value>
+    <value>Birden fazla çocuk (3-12 Yaş)</value>
   </data>
   <data name="lblCancelPolicyTitle.Text" xml:space="preserve">
     <value>İptal koşulları</value>
@@ -154,12 +154,15 @@
     <value>Oda 8:</value>
   </data>
   <data name="lblCancelPenaltyApplies.Text" xml:space="preserve">
-    <value>Dikkat:  Bu odanın iptali, iptal politikamız uyarınca iptal cezasına tabidir</value>
+    <value>Dikkat: Bu odanın iptali, iptal politikamız uyarınca iptal cezasına tabidir</value>
   </data>
   <data name="lbViewRates.Text" xml:space="preserve">
     <value>Tarife hakkında bilgi</value>
   </data>
   <data name="lblDescriptionButton.Text" xml:space="preserve">
     <value>Açıklama</value>
+  </data>
+  <data name="NonCancelableRoom" xml:space="preserve">
+    <value>(Non-Cancellable Rate - contact Hotel for more info)</value>
   </data>
 </root>

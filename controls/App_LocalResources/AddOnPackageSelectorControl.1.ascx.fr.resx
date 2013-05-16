@@ -124,7 +124,7 @@
     <value>Continuer</value>
   </data>
   <data name="ChildrenInfo" xml:space="preserve">
-    <value>Enfant(s)</value>
+    <value>Enfant(s) (3-12 ans)</value>
   </data>
   <data name="lblNoPackageInfo.Text" xml:space="preserve">
     <value>Il n'y a pas d'extras disponibles pour cette selection de chambre</value>

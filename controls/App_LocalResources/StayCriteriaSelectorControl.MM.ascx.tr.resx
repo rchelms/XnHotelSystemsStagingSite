@@ -130,7 +130,7 @@
     <value>Nerede kalmak isterdiniz?</value>
   </data>
   <data name="lblStayCriteriaInfo.Text" xml:space="preserve">
-    <value>Buradasınız</value>
+    <value />
   </data>
   <data name="XN00049" xml:space="preserve">
     <value>Paris</value>

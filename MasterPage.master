@@ -41,8 +41,8 @@
     <div id="container">
         <div id="page_header">
             <div class="MM_header_wrapper">
-                <div class="MM_logo">
-                </div>
+                <a href="http://www.mamashelter.com/" target="_blank"><div class="MM_logo">
+                </div></a>
                 <div class="MM_navigation">
                     <ul>
                         <li><a href="http://www.mamashelter.com/paris/">Paris</a></li>
@@ -109,8 +109,10 @@
                     <asp:HiddenField ID="hfMainMenu5PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu5PopUpUrl %>" />
                     <asp:HiddenField ID="hfMainMenu6" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu6 %>" />
                     <asp:HiddenField ID="hfMainMenu6PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu6PopUpUrl %>" />
-                    <asp:HiddenField ID="hfMainMenu7" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu7 %>" />
-                    <asp:HiddenField ID="hfMainMenu7PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu7PopUpUrl %>" />
+                    <asp:HiddenField ID="hfMainMenu8" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu8 %>" />
+                    <asp:HiddenField ID="hfMainMenu8PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu8PopUpUrl %>" />
+                    <asp:HiddenField ID="hfMainMenu9" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu9 %>" />
+                    <asp:HiddenField ID="hfMainMenu9PopUpUrl" runat="server" Value="<%$ Resources:MasterPageResources, MainMenu9PopUpUrl %>" />
                     <asp:HiddenField ID="hfReservations" runat="server" Value="<%$ Resources:MasterPageResources, Reservations %>" />
                     <asp:HiddenField ID="hfCancellations" runat="server" Value="<%$ Resources:MasterPageResources, Cancellations %>" />
                     <asp:HiddenField ID="hfCopyright" runat="server" Value="<%$ Resources:MasterPageResources, Copyright %>" />
@@ -127,7 +129,7 @@
                                     title="<% = hfMainMenu1.Value %>" class="mm_footer_option"><span class="mm_divider">
                                         /</span> <span class="mm_footer_invisible">
                                             <% = hfMainMenu1.Value %></span> <span class="mm_foter_option_item">
-                                                <asp:Label ID="Label3" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu1 %>"></asp:Label></span></a></li>
+                                                <asp:Label runat="server" Text="<%$ Resources:MasterPageResources, MainMenu1 %>"></asp:Label></span></a></li>
                                 <li><a href="javascript:void window.open('<% = hfMainMenu2PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
                                     title="<% = hfMainMenu2.Value %>" class="mm_footer_option"><span class="mm_divider">
                                         /</span> <span class="mm_footer_invisible">
@@ -139,69 +141,38 @@
                                             <% = hfMainMenu3.Value %></span> <span class="mm_foter_option_item">
                                                 <asp:Label ID="Label9" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu3 %>"></asp:Label></span></a></li>
                                 <li><a href="javascript:void window.open('<% = hfMainMenu4PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu3.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                    title="<% = hfMainMenu4.Value %>" class="mm_footer_option"><span class="mm_divider">
                                         /</span> <span class="mm_footer_invisible">
                                             <% = hfMainMenu4.Value %></span> <span class="mm_foter_option_item">
                                                 <asp:Label ID="Label11" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu4 %>"></asp:Label></span></a></li>
                                 <li><a href="javascript:void window.open('<% = hfMainMenu5PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu3.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                    title="<% = hfMainMenu5.Value %>" class="mm_footer_option"><span class="mm_divider">
                                         /</span> <span class="mm_footer_invisible">
                                             <% = hfMainMenu5.Value %></span> <span class="mm_foter_option_item">
-                                                <asp:Label ID="Label13" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu5 %>"></asp:Label></span></a></li>
+                                                <asp:Label ID="Label15" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu5 %>"></asp:Label></span></a></li>
                                 <li><a href="javascript:void window.open('<% = hfMainMenu6PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu3.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                    title="<% = hfMainMenu6.Value %>" class="mm_footer_option"><span class="mm_divider">
                                         /</span> <span class="mm_footer_invisible">
                                             <% = hfMainMenu6.Value %></span> <span class="mm_foter_option_item">
-                                                <asp:Label ID="Label15" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu6 %>"></asp:Label></span></a></li>
-                                <li><a href="javascript:void window.open('<% = hfMainMenu7PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu7.Value %>" class="mm_footer_option"><span class="mm_divider">
-                                        /</span> <span class="mm_footer_invisible">
-                                            <% = hfMainMenu7.Value %></span> <span class="mm_foter_option_item">
-                                                <asp:Label ID="Label5" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu7 %>"></asp:Label></span></a></li>
+                                                <asp:Label ID="Label5" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu6 %>"></asp:Label></span></a></li>
                                 <li><a href='<% =ResolveClientUrl("~/Pages/CancelReservation.aspx") %>' title="<% = hfCancellations.Value %>"
                                     class="mm_footer_option"><span class="mm_divider">/</span> <span class="mm_footer_invisible">
                                         <asp:Label ID="Label16" runat="server" Text="<%$ Resources:MasterPageResources, Cancellations %>"></asp:Label></span>
                                     <span class="mm_foter_option_item">
                                         <asp:Label ID="Label17" runat="server" Text="<%$ Resources:MasterPageResources, Cancellations %>"></asp:Label></span></a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu8PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu8.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                        /</span> <span class="mm_footer_invisible">
+                                            <% = hfMainMenu8.Value %></span> <span class="mm_foter_option_item">
+                                                <asp:Label ID="Label13" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu8 %>"></asp:Label></span></a></li>
+                                <li><a href="javascript:void window.open('<% = hfMainMenu9PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
+                                    title="<% = hfMainMenu9.Value %>" class="mm_footer_option"><span class="mm_divider">
+                                        /</span> <span class="mm_footer_invisible">
+                                            <% = hfMainMenu9.Value %></span> <span class="mm_foter_option_item">
+                                                <asp:Label ID="Label3" runat="server" Text="<%$ Resources:MasterPageResources, MainMenu9 %>"></asp:Label></span></a></li>
                             </ul>
                         </div>
-                        <!--<div class="mm_footer">
-                            <ul>
-                                <li><a href="javascript:void window.open('<% = hfMainMenu1PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu1.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider">
-                                        /</span>
-                                    <% = hfMainMenu1.Value %>
-                                </a></li>
-                                <li><a href="javascript:void window.open('<% = hfMainMenu2PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu2.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
-                                    <% = hfMainMenu2.Value %>
-                                </a></li>
-                                <li><a href="javascript:void window.open('<% = hfMainMenu3PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu3.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
-                                    <% = hfMainMenu3.Value %>
-                                </a></li>
-                                <li><a href="javascript:void window.open('<% = hfMainMenu4PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu4.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
-                                    <% = hfMainMenu4.Value %>
-                                </a></li>
-                                <li><a href="javascript:void window.open('<% = hfMainMenu5PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu5.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
-                                    <% = hfMainMenu5.Value %>
-                                </a></li>
-                                <li><a href="javascript:void window.open('<% = hfMainMenu6PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu6.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
-                                    <% = hfMainMenu6.Value %>
-                                </a></li>
-                                <li><a href="javascript:void window.open('<% = hfMainMenu7PopUpUrl.Value%>', 'terms', 'width=800,height=675,resizable,scrollbars,toolbar');"
-                                    title="<% = hfMainMenu7.Value %>" class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
-                                    <% = hfMainMenu7.Value %>
-                                </a></li>
-                                <li><a href="../pages/CancelReservation.aspx" title="<% = hfCancellations.Value %>"
-                                    class="mm_footer_option">&nbsp;<span class="mm_divider"> / </span>
-                                    <% = hfCancellations.Value %><span class="mm_divider"> / </span>
-                                </a></li>
-                            </ul>
-                        </div>-->
+                  
                     </div>
                     </form>
                 </div>

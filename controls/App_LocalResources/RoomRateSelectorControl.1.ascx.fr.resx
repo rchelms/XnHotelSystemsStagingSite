@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AdultsInfo" xml:space="preserve">
     <value>Adulte(s)</value>
@@ -124,7 +124,7 @@
     <value>Continuer</value>
   </data>
   <data name="ChildrenInfo" xml:space="preserve">
-    <value>Enfant(s)</value>
+    <value>Enfants (3-12 ans)</value>
   </data>
   <data name="lblRoomInfoInstructions1.Text" xml:space="preserve">
     <value>Merci de choisir le type de chambre et de tarif ci-dessous</value>

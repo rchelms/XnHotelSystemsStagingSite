@@ -117,16 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lblPaynowText.Text" xml:space="preserve">
-    <value>ŞİMDİ </value>
-  </data>
-  <data name="lblPaynowText1.Text" xml:space="preserve">
-    <value>YER AYIRTIN</value>
-  </data>
-  <data name="lblTempTotalText.Text" xml:space="preserve">
-    <value>Toplamınız</value>
-  </data>
-  <data name="lblTotalText.Text" xml:space="preserve">
-    <value>Ara toplamınız</value>
+  <data name="Edit" xml:space="preserve">
+    <value>Düzenle</value>
   </data>
 </root>

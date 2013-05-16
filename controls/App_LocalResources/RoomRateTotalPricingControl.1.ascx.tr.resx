@@ -127,7 +127,7 @@
     <value>Paket</value>
   </data>
   <data name="lblRoomRatesTotalPricingPopupHeaderItemQty.Text" xml:space="preserve">
-    <value>Yetişkinler</value>
+    <value>Yetişkin</value>
   </data>
   <data name="lblRoomRatesTotalPricingPopupHeaderItemSubtotal.Text" xml:space="preserve">
     <value>Toplam</value>

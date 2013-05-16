@@ -23,9 +23,9 @@ public static class Constants
 
         public const string PaymentGatewayInfos = "PaymentGatewayInfos";
         public const string PaymentGatewayInfo = "PaymentGatewayInfo";
-        public const string HotelBookingPaymentAllocations ="HotelBookingPaymentAllocations";
+        public const string HotelBookingPaymentAllocations = "HotelBookingPaymentAllocations";
 
-        public const string GuestDetailsEntryInfo ="GuestDetailsEntryInfo";
+        public const string GuestDetailsEntryInfo = "GuestDetailsEntryInfo";
 
         public const string HotelBookingRS = "HotelBookingRS";
         public const string HotelPaymentRS = "HotelPaymentRS";
@@ -39,11 +39,11 @@ public static class Constants
         public const string LoginProfiles = "LoginProfiles";
         public const string IsLoggedIn = "IsLoggedIn";
     }
-   public static class QueryString
-   {
-      public const string CrossPageErrors = "CrossPageErrors";
-      public const string StartOver = "res";
-   }
+    public static class QueryString
+    {
+        public const string CrossPageErrors = "CrossPageErrors";
+        public const string StartOver = "res";
+    }
     /// <summary>
     /// Parameters used in query string when using Deep linking.
     /// </summary>

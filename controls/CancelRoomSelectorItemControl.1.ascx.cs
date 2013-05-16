@@ -266,6 +266,14 @@ public partial class CancelRoomSelectorItemControl : System.Web.UI.UserControl
         else
             cbRoomSelected.Checked = false;
 
+        //Non-online cancellation
+        if (_CancelPolicy.NonRefundable)
+        {
+            cbRoomSelected.Enabled = false;
+            cbRoomSelected.CssClass += " mm_non_cancelable";
+            lblNonCancelableRoom.Text = (string)GetLocalResourceObject("NonCancelableRoom");
+        }
+
         for (int i = 0; i < lCancelAddOnPackageItemControls.Count; i++)
             lCancelAddOnPackageItemControls[i].RenderUserControl();
 

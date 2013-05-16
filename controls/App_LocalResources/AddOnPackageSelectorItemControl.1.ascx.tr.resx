@@ -124,7 +124,7 @@
     <value>için</value>
   </data>
   <data name="PackageQuantityUnitsAdults" xml:space="preserve">
-    <value>Yetişkin(ler)</value>
+    <value>Yetişkin</value>
   </data>
   <data name="PackageTypePerStayPerNight" xml:space="preserve">
     <value>konaklama başı gecelik</value>
